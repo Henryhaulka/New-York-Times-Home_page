@@ -1,0 +1,968 @@
+.ben{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    font-size: small;
+    
+    
+}
+.ben li {
+    font-size: x-small;
+}
+.ben a {
+    text-decoration: none;
+    color: black;
+   
+}
+.ben a:hover {
+    text-decoration: none;
+    color: black;
+   background-color: lightgrey;
+   padding: 3px;
+   border-radius: 3px;
+}
+.col-2 a:hover{
+    background-color: lightgrey;
+    padding: 3px;
+    border-radius: 3px;
+}
+.col-3 a {
+    color: white;
+    
+}
+.col-3 a:hover {
+        color: white;
+        text-decoration: none;
+    }
+.col-8 img{
+    max-width: 100%;
+    
+    
+}
+#nyt {
+    width: 380px;
+    height: 50px;
+    margin: 0;
+    padding: 0;
+
+}
+.pen {
+    display: none;
+}
+.sch{
+    display: flex;margin-top: 25px;width: 100%;
+    border-bottom: 1px solid lightgrey;
+    padding-bottom: 12px;
+
+}
+.comb{
+    display: none;
+}
+.phone {
+    display: flex;
+    list-style: none;
+    border-bottom: 1px solid black;
+    width: 100%;
+padding-bottom: 7px;
+justify-content: space-between;
+
+
+}
+.phone li {
+    padding: 7px;
+    font-size: smaller;
+    color: black;
+}
+
+.phone a:hover {
+text-decoration: none;
+color: black;
+background-color: lightgrey;
+padding: 3px;
+border-radius: 3px;
+}
+.phone a {
+    color: black;
+}
+#bab {
+    display: flex;
+}
+#pap li {
+    color:grey;
+    font-size: small;
+    list-style: square;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+#she {
+    width: 95%; margin: auto; margin-top: 5px;
+}
+#pap {
+    display: flex;
+    margin-top: 5px;
+    
+    
+}
+.nose{
+    border-bottom: 1px solid black; width: 100%; margin-top: 3px;
+}
+#bank {
+    color: grey;
+    font-size: small;
+}
+.one {
+    display: flex;
+    padding: 0;
+    border-bottom: 1px solid black;
+    margin-bottom: 3px;
+    padding-bottom: 15px;
+    
+}
+.six {
+    display: flex; flex-direction: column;margin-top: 10px;
+    margin-left: 10px;
+    padding: 0;
+}
+
+#mary {
+    border-left: 1px solid lightgrey;
+}
+#watch {
+    width: 10rem;
+    
+}
+#wall{
+    width: 100%;
+    
+}
+.syrup{
+    width: 18%;
+}
+#syrup{
+    border-bottom: none;
+}
+#book{
+    display: flex; justify-content: space-between;padding-top: 10px;padding-bottom: 20px;margin-top: 10px;
+    
+}
+.gen {
+    border-bottom: 1px solid lightgrey;padding-bottom: 7px;display: flex;
+    padding-top: 5px;justify-content: space-between;
+}
+.mile{
+    width: 35px;
+    margin-left: 5px;
+}
+.two{
+     border-right: 1px solid lightgrey; padding: 0; margin-top: 10px;
+    display: flex; flex-direction: column;
+    padding-right: 7px;
+}
+.three{
+   padding-left: 5px;
+   width: 60%;
+}
+.four {
+    width: 100%; height:  300px; margin-top: 4px;
+    border-left: 1px solid lightgrey; padding-left: 15px;
+    
+    
+}
+
+.eight {
+    width: 40%;
+    padding-right: 15px;
+}
+.nine {
+    display: flex;  border-bottom: 1px solid lightgrey; padding-top: 5px;  justify-content: space-between;
+}
+.ten{
+    display: flex; margin-top: 25px;justify-content: space-between;
+    border-bottom: 1px solid black;padding-bottom: 15px;
+}
+.eleven{
+    width: 75%;
+    border-top: 1px solid lightgrey;
+    padding-top: 7px;
+
+    
+} 
+.fifteen td,table {
+padding: 5px;
+
+}
+.fifteen th{
+margin: 20px;
+}
+.twelve {
+    width: 25%; font-size: smaller;
+    padding-top: 10px;
+    margin-left: 10px;
+   
+}
+.eleven
+ h6 p a:hover {
+opacity: 0.7;
+}
+
+.twelve a {
+    color: grey;
+    text-decoration: none;
+}
+.twelve a:hover{
+    color: grey;
+}
+.thirteen {
+    padding-top: 7px; display: flex;
+}
+.fourteen {
+    width: 30%; display: flex; flex-direction: column;
+}
+#piece {
+    width: 70%; padding: 0; margin-left: 10px; margin-top: 10px;
+
+}
+.fifteen{
+    border-right:  1px solid lightgrey;
+    margin-right: 0;
+    padding-right: 0;
+    
+}
+
+.sixteen {
+    margin-top: 30px; padding: 20px; display: flex; width: 100%;justify-content: space-around;border-top: 1px solid black;
+}
+.thirteen a:hover{
+text-decoration: none;
+opacity: 0.7;
+}
+#fifteen{
+    width: 40%;
+}
+.seventeen{
+    width: 30%;text-align: center;padding-left: 15px;border-right: 1px solid lightgrey;
+}
+.nineteen {
+    display: flex; justify-content: space-between; margin-top: 40px; width: 20%;
+}
+.nineteen img {
+    width: 100px;height: 80px;
+}
+.twenty {
+    display: flex;justify-content: space-between;border-bottom: 1px solid black;padding-bottom: 7px;
+}
+.leno{
+    display: flex; justify-content: space-between;
+    border-bottom: 1px solid black;
+
+}
+.eddie{
+    width: 48%;
+    padding-top: 10px;
+    margin-top: 10px;
+    text-decoration: none;color: black;
+    
+
+    
+}
+.david {
+    width: 100%;padding-top: 0;
+    margin-top: 0;
+    margin: auto;
+    
+}
+#starch{
+    padding-left: 0;margin-left: 0;
+    width: 100%;
+padding-top: 15px;
+}
+#spoon {
+    width: 100%;margin-top: 7px;
+    margin: auto;
+}
+.eddie:hover{
+    text-decoration: none;
+    color: black;
+opacity: 0.7;
+}
+.nke {
+    width: 48%;
+
+}
+#tiny{
+    width: 100%;padding: 0;margin: 0;
+}
+.tiny{
+    display: flex;justify-content: space-between;
+}
+.tooth{
+    margin: auto;padding-bottom: 7px;border-bottom: 1px solid lightgrey;
+
+}
+.tooth:hover{
+    opacity: 0.7;
+}
+.gab:hover{
+    opacity: 0.7;
+}
+.coeq:hover{
+text-decoration: none;
+opacity: 0.7;
+}
+
+.lucas{
+    display: flex;justify-content: space-between;width: 100%;height: auto;padding-bottom: 5px; border-bottom: 1px solid lightgrey;
+}
+.lucos{
+    display: flex;justify-content: space-between;width: 100%;height: auto;padding-bottom: 5px; 
+}
+#sokra{
+    border-left:1px solid lightgrey; border-right: 1px solid lightgrey;padding-top: 0;margin-top: 0;
+}
+.gab{
+    width: 48%;
+}
+.riel{
+    width: 50%;
+}
+.luiz{
+    width: 45%;
+}
+.dani {
+    display: flex;justify-content: space-between;
+    padding-bottom: 10px;
+}
+.ceba:hover{
+    opacity: 0.7;
+}
+.ceba{
+    text-decoration: none;color: black;width: 45%;
+}
+.ceba:hover{
+    text-decoration: none;
+    color: black;
+}
+
+.nico:hover{
+opacity: 0.7;
+text-decoration: none;
+}
+.nke:hover{
+    opacity: 0.7;
+}
+
+.eddie h5{
+    font-weight: bold;
+}
+.nke h5{
+    font-weight: bold;
+}
+.nke {
+    padding: 10px;
+    border-left: 1px solid lightgrey;
+    margin: 10px;
+}
+.auba {
+    display: flex; justify-content: space-between;margin-top: 7px;padding-top: 10px;
+}
+.men{
+    width: 35%;color:grey;text-decoration: none;
+}
+.men:hover {
+    text-decoration: none;
+    color: grey;
+    opacity: 0.7;
+}
+.yang{
+    width: 35%;
+}
+.emer{
+    width: 20%; text-decoration: none; color: grey;font-size: x-small;
+}
+.emer:hover{
+    text-decoration: none;
+    color: grey;
+    opacity: 0.7;
+}
+#riel{
+    width: 90%;margin-top: 17px;height: 80%;
+}
+.cart{
+    padding-top: 0px;padding-right: 0;margin-right: 0;
+}
+.no{
+    border-bottom: 1px solid black;
+}
+.ne{
+    border-top: 1px solid black;margin-top: 2px;
+}
+#wire{
+    padding: 0;margin: 0;border-right: 1px solid lightgrey;
+}
+.wire img{
+    width: 98%;
+}
+.wire p{
+ font-size: x-small;
+ text-align: right;   
+ color: lightgrey;
+ width: 98%;
+}
+.ngolo{
+    width: 47%;
+}
+#ngolo{
+    display:flex;
+    justify-content: space-between;
+    border-bottom: 1px solid lightgrey;
+    padding-bottom: 8px;
+    margin-left: 10px;
+}
+#ngola{
+    display:flex;
+    justify-content: space-between;
+    padding-bottom: 8px;
+    padding-top: 10px;
+    margin-top: 7px;
+    margin-left: 10px;
+}
+.kante img{
+   width: 100%;
+   height: 150px;
+    
+}
+.key{
+   width: 90%;
+   text-align: center;
+}
+.kante{
+
+}
+.fils:hover{
+    opacity: 0.7;
+}
+.kante p{
+    padding-left: 0;
+    margin-left: 0;
+    width: 95%;
+}
+.kante h5{
+    padding-left: 0;
+    margin-left: 0;
+    width: 95%;
+}
+.onu{
+    width: 47%;
+    
+    
+    
+}
+
+.dora{
+    display: flex;justify-content: space-between; width: 100%;padding: 0;margin: 0;padding-bottom: 15px; border-bottom: 1px solid lightgrey;margin-left: 5px;
+}
+#dora{
+    width: 45%;margin-left: 5px;
+}
+#thy{
+    width: 45%;
+}
+.mag{
+    display: flex;justify-content: space-between;width: 101%;border-right: 1px solid lightgrey;padding-right: 10px;
+}
+.mag img{
+    width: 100%;height: 150px;
+}
+#mag{
+    width: 23%;
+}
+.crystal{
+    padding-bottom: 15px;
+}
+#play{
+    padding: 10px;
+}
+#small{
+    margin-top: 25px;padding-top: 25px;
+}
+#left{
+    padding-left: 5px;
+}
+.rush{
+    padding-top: 10px;padding-left: 5px;
+}
+.together{
+    display: flex;justify-content: space-between;width: 100%;
+}
+#together{
+    width:18%;
+}
+#together p:hover{
+opacity: 0.7;
+}
+.togetha{
+    display: flex;justify-content: space-between;width: 100%;
+    margin-top: 15px;padding-top: 20px; width: 80%;
+}
+#togetha{
+    width:22%;
+}
+#togetha p:hover{
+    opacity: 0.7;
+    }
+    .down{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        padding-bottom: 10px;
+        border-bottom: 1px solid lightgrey;
+    }
+    
+    #down div{
+        padding-top: 2px;
+        padding-bottom:2px ;
+    }
+.mat div{
+    padding-top: 7px;
+    padding-right: 7px;
+}
+
+        
+    .down a:hover{
+        color: black;
+            }   
+
+    .down a{
+color: black;
+    }
+    #ife{
+        display: flex;justify-content: space-between;width: 90%;margin: auto;font-size: smaller;opacity: 0.7;
+        padding-top: 10px;padding-bottom: 10px;
+    }
+    #ife a {
+        color: black;
+    }
+    .ife{
+        display: none;
+    }
+    .noto{
+        display: none;
+    }
+
+@media only screen and (max-width:596px){
+    html, body {
+        height: 100%;
+        margin: 0;
+    }
+    .noto{
+        display: block;
+        font-size: smaller;
+        width: 100%;
+        padding-top: 10px;
+    }
+    .noto a{
+        color: black;
+        opacity: 0.7;
+    }
+    #together{
+        width: 100%;
+        padding-bottom: 7px;
+border-bottom: 1px solid lightgrey;
+padding-top: 10px;
+    }
+    .ife{
+        display: block;
+        width: 100%;
+    }
+    #ife {
+        display: none;
+    }
+    .ife a {
+        color: black;
+        font-weight: bold;
+        opacity: 0.7;
+    }
+    .down {
+        display: none;
+    }
+    #togetha{
+        width: 100%;
+        padding-bottom: 7px;
+border-bottom: 1px solid lightgrey;
+padding-top: 10px;
+    }
+    .together{
+display: block;
+
+    }
+    .togetha{
+        display: block;
+        border-bottom: 2px solid black;
+        width: 100%;
+        
+            }
+    .rush{
+        padding-left: 0;
+    }
+    #left{
+        padding-top:10px;
+        padding-bottom: 10px;
+        padding-left: 0;
+    }
+    #small{
+        padding-left: 0; margin-left: 0;
+    }
+    #play{
+        padding: 0;
+    }
+    .crystal{
+        padding-bottom: 15px;
+        border-bottom: 1px solid lightgrey;
+    }
+    #mag{
+        width: 100%;
+    }
+    .mag img{
+        height: 100%;
+        padding-bottom: 10px;
+    }
+    .mag{
+        display: block;
+        border-right: none;
+        padding-right: 0;
+    }
+    .tiny{
+        display: block;
+        border-bottom: 1px solid lightgrey;
+    }
+    .onu{
+        width: 100%;
+    }
+    #fifteen{
+        width: 100%;
+    }
+    .kante img{
+        width: 100%;
+    margin: auto;
+height: auto;
+}
+.dora{
+    display: block;
+    margin-left: 0;
+}
+#dora{
+    width: 100%;
+    margin-left: 0;
+}
+#thy{
+    width: 100%;
+}
+#thy img{
+padding-top: 15px;
+}
+
+    .kante{
+        
+        border-right: none;
+        padding-top: 5px;
+        margin-top: 10px;
+        border-bottom: 1px solid lightgrey;
+        padding-bottom: 15px;
+        margin-bottom: 5px;
+
+    }
+    .ire{
+        border-bottom: 2px solid black;
+        padding-top: 10px;
+    }
+    #ngolo{
+        display:block;
+        padding-bottom: 8px;
+        border-bottom: none;
+        margin-left: 0;
+    }
+    #ngola{
+        display:block;
+        padding-bottom: 8px;
+        margin-left: 0;
+    }
+    #starch{
+        padding-left: 10px;margin-left: 10px;
+        width: 100%;
+    }
+    .cart{
+        padding-right: auto;
+        margin-right: auto;
+    }
+    .auba{
+        display: block;
+    }
+    #book{
+        display: block;
+    }
+    .syrup{
+        width: 100%;
+      
+    }
+    #syrup{
+        border-bottom: 1px solid lightgrey;
+        padding-bottom: 10px;
+        margin-bottom: 12px;
+    }
+    .men{
+        width: 100%;
+    }
+    
+    .ceba{
+        width: 100%;
+    }
+    #riel{
+        width: 100%;
+    }
+    .luiz{
+        width: 100%;
+    }
+    .lucas {
+        flex-direction: column-reverse;
+    }
+    .lucos{
+        flex-direction: column-reverse;
+        border-bottom: 2px solid black;
+    }
+    .gab{
+        width: 100%;
+    }
+    .riel{
+        width: 100%;
+    }
+    .dani{
+        flex-direction: column-reverse;
+    }
+    .yang{
+        width: 100%;
+        margin: auto;
+    }
+    .emer{
+        width: 100%;
+    }
+    .leno{
+        display: block;
+    }
+    .eddie{
+        width: 100%;
+        
+        
+    }
+    .nke {
+        width: 100%;
+        border-left: 0;
+        margin: 0;
+        padding: 0;
+        border-top: 1px solid black;
+    }
+    .twenty{
+        display: block;
+    }
+    .seventeen{
+    width: 100%;
+    padding-left: 0;
+    border-right: none;
+    border-bottom: 1px solid black;
+    padding-bottom: 7px;
+    padding-top: 5px;
+    }
+    .seventeen td{
+padding: 7px;
+
+    }
+    .nineteen img {
+        width: 100%;
+        height: 100%;
+    }
+    .fifteen{
+        border-right: none;
+        border-bottom: 1px solid black;
+        padding-bottom: 10px;
+    }
+    .fifteen td{
+padding: 7px;
+    }
+
+    .nineteen{
+        width: 100%;
+        display: block;
+    }
+    .sixteen{
+        display: block;
+    }
+    #fifteen{
+        width: 100%;
+    }
+    .seventeen {
+        width: 100%;
+    }
+
+
+    .twelve{
+        width: 100%;
+        margin-top: 7px;
+        margin-left: 0;
+    }
+    #piece{
+        width: 100%;
+        margin-left: 0;
+    }
+    .thirteen {
+        display: block;
+    }
+    .fourteen{
+        width: 100%;
+    }
+    .eleven{
+        width: 100%;
+        border-top: 0;
+    }
+    .ten {
+        display: block;
+        margin-top: 10px;
+        
+    }
+    .nine{
+        padding-top: 7px;
+    }
+    .eight{
+        border-right: none;
+        margin-top: 7px;
+        height: 55%;
+        text-align: left;
+        padding-right: 0;
+        width: 100%;
+    }
+    .eight h5{
+        font-size: x-large;
+    }
+    .no{
+        border-bottom: none;
+    }
+    .ne{
+        border-top: none;
+    }
+    .seven {
+        border-top:1px solid lightgrey ;
+        margin: 0;
+    }
+    .six {
+        width: 100%;
+        margin-left: 0;
+        border-top: 1px solid lightgrey;
+        
+    }
+    #stipi {
+        padding-top: 10px;
+    }
+    .four {
+        width: 100%;
+        height: 50%;
+        margin: auto;
+        border-left: none;
+        padding-left: 0;
+    }
+    .three {
+        border-left: none;
+        padding-left: none;
+        padding: 0;
+        margin: 0;
+        padding-top: 15px;
+        width: 100%;
+        
+        
+    }
+    .two{
+        width: 100%;
+        border-right: none;
+    }
+    .one{
+        display: block;
+        width: 100%;
+    }
+    .gen{
+        display: block;
+    }
+    #watch {
+        width: 100%;
+    }
+        #bank {
+            font-size: medium;
+        }
+    #pap li {
+        color:grey;
+        font-size: medium;
+        list-style: square;
+        text-align: left;
+        width: 100%;
+        padding-bottom: 3px;
+    }
+    .biro{
+        display: none;
+    }
+    #mary {
+        border-left: none;
+        padding-top: 50px;
+    }
+    #she {
+        width: 100%;
+        
+    }
+    #pap {
+        border-right: none;
+        width: 100%;
+        display: block;
+        margin-top: 0;
+        padding-top: 0;
+        
+    }
+    .nose{
+        display: none;
+    }
+    .pen{
+        display: block;
+        display: flex;
+        margin-top: 10px;
+        padding-bottom: 10px;
+        
+        
+    }
+    #bab{
+        display: none;
+    }
+    .phone{
+        display: none;
+    }
+    .comb{
+        width: 100%;background-color: lightgray ;  padding: 0px;display: flex;border-bottom: 1px solid gray;border-top: 1px solid gray;
+        padding-top: 8px;
+        
+    }
+    .sch{
+        display: none;
+    }
+    #dem {
+    margin-left: 3rem;
+    }
+    #pad{
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .david{
+        width: 100%;
+    }
+    #wire{
+        border-right:none
+    }
+    #wire img{
+        width: 100%;
+        padding-top: 7px;
+    }
+}

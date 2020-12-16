@@ -1,0 +1,2048 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nytimes.com</title>
+    <link rel="stylesheet" href="nytimes.css">
+    <script src="https://kit.fontawesome.com/02ede8a396.js" crossorigin="anonymous"></script>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+      
+</head>
+<header>
+    <div class="container-fluid" style=" width: 95%; margin: auto;">
+        <div class="biro">
+        <div class="row" style="margin-top: 7px;">
+        <div class="col-2" >
+       <a href=""> <i class="fas fa-bars"></i></a>
+       <button  class= "btn border-dark"style="margin-left: 15%;"> <i class="fas fa-search" ></i></button>
+    </div>
+        <div class="col-7" style="margin: auto;">
+<ul class="ben" >
+    <li><a href="" style="padding-left: 10px;">U.S.</a></li>
+    <li><a href="" style="padding-left: 10px; font-weight: bold;">INTERNATIONAL</a></li>
+    <li><a href="" style="margin-left: 10px;">CANADA</a></li>
+    <li ><a href="" style="text-transform: uppercase;margin-left: 10px;">español</a></li>
+    <li><a href="" style="margin-left: 10px;">汉字</a></li>
+</ul>
+
+        
+
+    </div>
+    <div class="col-3 " style=" text-align: right;padding: 0;">
+<button class="btn btn-info font-weight-bold" style="font-size: small;"><a href=""> SUBSCRIBE NOW </a> </button>
+<button class="btn btn-info font-weight-bold"  style="font-size: small;"><a href=""> LOG IN </a></button>
+    </div>
+</div>
+</div>
+<div class="pen">
+    <a href="" > <i class="fas fa-bars" style="margin-top: 10px;color: black;"></i></a>
+<a href="" style="text-align: center;"> <img src="https://us.martinique.org/sites/martinique/files/new_york_times_logo.png" alt="nyt.logo" style="width:50% ; margin-top: 10px;text-align: center;"></a>
+
+
+<a href=""><i class="fas fa-user" style="float: right;margin-top: 10px;color: black;"></i></a>
+
+</div>
+
+<div class="row" >
+    <div class="sch">
+    <div class="col-sm-2 mt-4">
+        <span id="demo" style="font-weight: bold;"></span><br>
+        <span style="font-size: smaller;">Today's paper</span>
+<script>
+var d = new Date();
+document.getElementById("demo").innerHTML = d.toDateString() ;
+</script>
+
+    </div>
+    <div class="col-sm-8" style=" text-align: center; margin-top: 20px;">
+  <a href="">   <img src="https://us.martinique.org/sites/martinique/files/new_york_times_logo.png" alt="NYT.logo" id="nyt"> </a> 
+    </div>
+    
+    <div class="col-sm-2 mt-2" style="text-align: right;">
+        <i class="fas fa-cloud-sun-rain fa-2x" style="color: yellow;"></i>
+       <span> <span style="font-weight: bold;"> 31°C</span>
+<span style="font-size: x-small; margin-left: 5px;"> 31° 25° </span></span>
+<p style="font-size: smaller;">Dow
+    -0.58% <i class="fas fa-arrow-up" style="color:green;font-size: smaller; " ></i>
+    </p>
+    </div>
+    
+</div>
+    
+<ul class="phone">
+    <li><a href=""> World</a></li>
+    <li><a href="">U.S</a></li>
+    <li><a href="">Politics</a></li>
+    <li><a href="">N.Y</a></li>
+    <li><a href="">Business</a></li>
+    <li><a href="">Opinion</a></li>
+    <li><a href="">Tech</a></li>
+    <li><a href="">Science</a></li>
+    <li><a href="">Health</a></li>
+    <li><a href="">Art</a></li>
+    <li><a href="">Books</a></li>
+    <li><a href="">Style</a></li>
+    <li><a href="">Food</a></li>
+    <li><a href="">Travel</a></li>
+    <li><a href="">Magazine</a></li>
+    <li><a href="">T Magazines</a></li>
+    <li><a href=""></a></li>
+
+
+
+
+
+
+
+</ul>
+
+<div class="row" id="bab" style="width: 100%; margin: auto; border-bottom: 1px solid black;padding-bottom: 2px;">
+    
+<div class="col-4" style="display: flex;border-right: 1px solid lightgrey;height: 55px;">
+    <a href="" class="stretched-link"><img src="https://static01.nyt.com/images/2017/01/29/podcasts/the-daily-album-art/the-daily-album-art-square320-v4.png" alt="daily_logo" style="width:40px ;height: 55px;"></a>
+<p style="font-size: smaller; margin-left: 15px;">
+   <span style="font-weight: bold;"> Listen to 'The Daily'</span> <br>
+  <span style="color: grey;">  A day at the food pantry.</span>
+</p>
+
+</div>
+
+<div class="col-4" style="display: flex; ">
+ <a href="" class="stretched-link">   <img src="https://static01.nyt.com/images/2016/11/11/nyregion/neediest-cases-reboot-color/neediest-cases-reboot-color-square320-v3.jpg" alt="daily_logo" style="width:40px ;height: 55px;"></a>
+   
+    <p style="font-size: smaller; margin-left: 15px; ">
+       <span style="font-weight: bold;"> The Neediest Cases Fund.</span> <br>
+      <span style="color: grey; width: 100%;"> For New Yorkers starting new chapters,the struggles of the pandemic took on additional intensity.</span> 
+    </p>
+    
+
+
+
+
+
+
+
+
+
+
+
+</div>
+<div class="col-4" style="display: flex;height: 55px;border-left: 1px solid lightgrey; ">
+    <a href="" class="stretched-link">   <img src="https://static01.nyt.com/images/2018/03/27/books/book-review-album-art-v2/book-review-album-art-v2-square320.jpg" alt="daily_logo" style="width:40px ;height: 55px;"></a>
+   <div style="display: flex;">
+    <p style="font-size: smaller; margin-left: 15px; padding-top: 0; margin-top: 0;">
+       <span style="font-weight: bold;"> The Book Review Podcast.</span> <br>
+      <span style="color: grey;"> A.O Scott on Joy Williams; Nicholas Christakis on "Apollo's Arrow."</span> 
+    </p>
+</div>
+
+
+
+
+    
+
+        </div>
+
+    </div>
+    
+    <div class="nose"></div>
+        
+            </div>
+          
+</header>
+<nav  class="comb" >
+    <div  style="font-size: smaller; font-weight: bold;">
+        <p id="dem" ></p>
+
+        <script>
+        var d = new Date();
+        document.getElementById("dem").innerHTML = d.toDateString();
+        </script>
+
+    </div>
+    <div style="display: flex; margin-left: auto; padding: 5px;">
+    <div style="text-align: right;margin-right: 10px;font-size: x-small;">
+        SUBCRIBE NOW
+    </div>
+    
+    <div style="text-align: right;font-size: x-small; ">
+    <span style="color: grey;">|</span>  &nbsp; &nbsp;  LOG IN
+    </div>
+</nav>
+<body>
+    <div class="container-fluid" id="she" style="margin-top: 15px;">
+    <div class="row " style="width: auto;padding-bottom: 10px;margin-bottom: 2px; ">
+<div class="col-sm-8" >
+    <div id="pap" >
+<div class="eight" >
+  <h5 style="font-weight: bold;color: black; ;">  Midnight Ruling Exposes Rifts at Supreme Court Transformed by Trump</h5> </a>
+  <a href=""  style="text-decoration: none;"> <li style="font-size: small;"> The justices issued six opinions, several of them unusually bitter, in upholding challenges from churches and synagogues to state pandemic restrictions.</li> </a>
+    <a href=""  style="text-decoration: none;"> <li style="font-size: small;">  The ruling was almost certainly a taste of things to come, with Justice Amy Coney Barrett’s support for religious freedom likely to play a major role.</li> </a>
+</div>
+  <div class="three">
+    <a href=""> <img src="https://static01.nyt.com/images/2020/11/26/nyregion/26nyvirus-churches/merlin_179393973_d6adb88a-998f-409d-b84a-b1f77ee7f442-threeByTwoMediumAt2X.jpg?quality=75&auto=webp&disable=upscale" alt="congregation" 
+     class="four"></a>
+ </div>
+
+
+
+
+</div>
+<div class="ten">
+ <div class="eleven">  <a href="" style="text-decoration: none;"> <h6 style="font-weight: bold;color: black;"> Cuomo Attacks Supreme Court’s Emboldened Majority Over Virus Ruling</h6>
+  <p style="color: grey;font-size: medium;">  “You have a different court, and I think that was the statement the court was making,” Gov. Andrew Cuomo said of the court’s new conservative majority.</p>
+    
+</a> </div>
+
+<div class="twelve">  
+    <a href="" style="text-decoration: none;">   Restriction on capacity at houses of worship were instituted in October after a rise in coronavirus cases in Brooklyn and Queens.
+<br>  <span style="opacity: 0.7;"> <i> James Estrin /The New York Times.</i></span>
+</a></div>
+
+
+</div>
+<div class="thirteen">
+<div class="fourteen">
+    <a href=""> <div >
+
+  <h5 style="font-weight: bold; color: black;">  Americans Gather for Thanksgiving at a Moment of National Peril</h5>
+   <p style="color: grey;"> The shadow of the pandemic hangs over the holiday, with daily cases reaching record highs and deaths soaring across the U.S. Here’s the latest.
+</p>
+ <p style="color: orangered; font-weight: bold;">   Live</p>
+</div></a>
+<a href=""> <div>
+
+
+   <h5 style="font-weight: bold;color: black;"> What the Thanksgiving Parade Looked Like in Pandemic New York</h5>
+<p style="color: grey;">The holiday ritual was limited to a block, with parts pretaped for television and barricades to keep people away. Curious spectators showed up anyway.
+</p> 
+
+</div></a>
+
+
+</div>
+
+<span>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</span>
+  
+  <a href="">
+  <div class="container-fluid" id="piece">
+    
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+        <li data-target="#myCarousel" data-slide-to="3"></li>
+      </ol>
+  
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner">
+  
+        <div class="item active" style="position: relative;">
+          <img src="https://static01.nyt.com/images/2020/12/02/us/02virus-travelnurses-hp-slide-TUEK/02virus-travelnurses-hp-slide-TUEK-master1050.jpg" alt="Los Angeles" style="width:100%;">
+          <div class="carousel-caption" >
+            
+            <div >Hilary Swift for New York Times</div>
+          </div>
+        </div>
+  
+        <div class="item">
+          <img src="https://static01.nyt.com/images/2020/11/29/us/02virus-travelnurses-lead/00virus-travelnurses-john-superJumbo.jpg?quality=90&auto=webp" alt="Chicago" style="width:100%;">
+          <div class="carousel-caption">
+            
+            <p>Hilary Swift for New York Times</p>
+          </div>
+        </div>
+      
+        <div class="item">
+          <img src="https://static01.nyt.com/images/2020/12/03/nyregion/03nyvirus-subway-p1/00nyvirus-subway1-threeByTwoMediumAt2X.jpg?quality=75&auto=webp&disable=upscale&width=1100" alt="New York" style="width:100%;">
+          <div class="carousel-caption">
+            
+            <p>Hilary Swift for New York Times</p>
+          </div>
+        </div>
+        <div class="item">
+            <img src="https://static01.nyt.com/images/2020/12/02/nyregion/02ny-house1/02ny-house1-threeByTwoMediumAt2X-v2.jpg?quality=75&auto=webp&disable=upscale&width=1100" alt="New York" style="width:100%;">
+            <div class="carousel-caption">
+              
+              <p>Hilary Swift for New York Times</p>
+            </div>
+          </div>
+    
+      </div>
+  
+      <!-- Left and right controls -->
+      <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </div>
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+
+<div class="sixteen">
+
+    <div class="fifteen" id="fifteen">
+<a href="" style="color: black; text-decoration: none;">   <table>
+        <tr>
+<th>    </th>
+<th> United State  
+    <p style="font-weight: lighter; padding: 5px;"> on Dec 2</p>
+</th>
+<th> <span style="font-weight: lighter;padding: 5px;">14 days<br>change</span> </th>
+<th style="font-weight: lighter; padding: 5px;">Trend</th></tr>
+<tr>
+<td style="font-size: smaller; font-weight: lighter;">New Cases</td>
+<td style="color:rgb(231, 81, 81);font-size: large;font-weight: lighter;opacity: 0.;"> 199,988</td>
+<td  style="color:rgb(231, 81, 81);font-size: large;font-weight: lighter;opacity: 0.8;">+1 %</td>
+<td>
+    <img src="https://thumbs.dreamstime.com/b/falling-arrow-down-red-design-web-icon-chart-showing-reduction-parameters-148310538.jpg" alt="" style="width: 50px;height: 30px;">
+</td>
+
+
+</tr>
+<tr>
+<td style="font-size: smaller; font-weight: lighter;">Death Cases</td>
+<td style="color:rgb(231, 81, 81);font-size: large;font-weight: lighter;opacity: 0.8;"> 2,885</td>
+<td style="color:rgb(231, 81, 81);font-size: large;font-weight: lighter;opacity: 0.8;">+30%</td>
+<td>
+    <img src="data:image/jpeg;base64,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" alt="" style="width: 50px; height: 30px;">
+</td>
+
+
+</tr>
+
+
+
+
+    </table></a> 
+       	
+    
+            
+    
+    </div>
+    
+    <div class="seventeen">
+
+        <div>
+            <a href="" style="color: black; text-decoration: none;"> <table style="width: 100%;">
+            <tr>
+    
+    <th style="text-align: center;"> World  
+        <p style="font-weight: lighter; "> on Dec 2</p>
+    </th>
+    <th> <span style="font-weight: lighter;">14 days<br>change</span> </th>
+    <th style="font-weight: lighter; ">Trend</th></tr>
+    <tr>
+
+    <td style="color:rgb(231, 81, 81);font-size: large;font-weight: lighter;opacity: 0.;"> 600,850</td>
+    <td  style="color:rgb(231, 81, 81);font-size: large;font-weight: lighter;opacity: 0.8;">-2 %</td>
+    <td>
+        <img src="https://thumbs.dreamstime.com/b/falling-arrow-down-red-design-web-icon-chart-showing-reduction-parameters-148310538.jpg" alt="" style="width: 50px;height: 30px;">
+    </td>
+    
+    
+    </tr>
+    <tr>
+    
+    <td style="color:rgb(231, 81, 81);font-size: large;font-weight: lighter;opacity: 0.8;">10,656</td>
+    <td style="color:rgb(231, 81, 81);font-size: large;font-weight: lighter;opacity: 0.8;">+9%</td>
+    <td>
+        <img src="data:image/jpeg;base64,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" alt="" style="width: 50px; height: 30px;">
+    </td>
+    
+    
+    </tr>
+    
+    
+    
+    
+        </table></a>
+    </div>
+        
+                
+        
+        </div>
+    
+
+    <div class="nineteen ">
+<a href="" style="width: 100%;"><div >
+<img src="https://static01.nyt.com/newsgraphics/2020/03/16/coronavirus-maps/6123e98de4f5c8bdacc86de02c368a3d5263ebba/images/orphan_world-threeByTwoSmallAt2X.png" alt="" >
+</div></a>
+<a href=""><div >
+<img src="https://static01.nyt.com/newsgraphics/2020/03/16/coronavirus-maps/6123e98de4f5c8bdacc86de02c368a3d5263ebba/images/footer-thumbs/vaccines.png" alt="">
+</div>  </a>
+</div>
+    
+    </div >
+<div class="twenty" id="pad">
+    <a href=""><div style="font-weight: bold;color: black;">Other trackers:</div></a>
+<a href="" style="text-decoration: underline;color: black;"><div >College Cases</div></a>
+<a href="" style="text-decoration: underline;color: black;"><div >State restrictions</div></a>
+  <a href="" style="text-decoration: underline;color: black;"><div >Nursing houses</div></a>
+<a href="" style="text-decoration: underline;color: black;"><div>Vaccines</div></a>
+<a href="" style="text-decoration: underline;color: black;"><div>Excess death</div></a>
+<a href="" style="text-decoration: underline;color: black;"><div >Choose your own place to track</div></a>
+
+
+
+</div>
+
+
+<div class="leno">
+<a href="" class="eddie"  ><div id="pad">
+
+ <h5 style="color: black; font-size: large;">  2,596 Trades in One Term: Inside Senator Perdue’s Stock Portfolio</h5> 
+  <p>  David Perdue is the Senate’s most prolific trader, data shows. And his trades have included a range of companies within his committees’ oversight.</p>
+
+</div></a>
+
+
+  <div  class="nke">
+    <a href="" style="text-decoration: none;">  <div id="pad">
+  <h5 style="color: black;"> Georgia Republicans Seek Cover From Trump’s Fury Over Loss</h5> 
+  <p style="color: grey;"> Many in the state G.O.P. are expending significant effort to navigate President Trump’s outrage over his loss, hoping to retain the support of his base.</p> 
+</div></a>
+ <a href="" style="text-decoration: none;"><h5 style="border-top: 1px solid lightgrey;padding-top: 10px;color: black;">   No, Attorney General William Barr was not part of a secret plot against President Trump.</h5>
+ </a>
+</div> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+<div class="auba">
+<a href="" class="men" style="padding-left: 0;margin-left: 0;">
+
+
+   <h5 style="font-weight: bold;font-size: large;color: black;">Valéry Giscard d’Estaing, Who Struggled to Transform France, Dies at 94.</h5> 
+<p style="font-size: small;"> The former president sought to make government more responsive, but was thwarted by an economic slowdown, demographic shifts and an imperious bearing.
+</p>
+</a>
+<div class="yang">
+
+   <a href=""> <img src="https://static01.nyt.com/images/2020/12/03/obituaries/00Giscard-d-estaing1/00Giscard-d-estaing1-threeByTwoSmallAt2X.jpg?quality=75&auto=webp&disable=upscale" alt="" id="spoon"></a>
+</div>
+
+<a href="" class="emer" ><div >
+    Valéry Giscard d’Estaing in 2010. He came to office in 1974 declaring his intention to make the overbearing presidency more responsive to the will of the people. Ian Langsdon/EPA, via Shutterstock
+    Opinion
+    Thomas L. Friedman
+    Thomas L. Friedman
+
+</div></a>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+</div>
+
+
+    
+      
+    
+    <div class="col-sm-4" id="mary">
+        <h6>Opinion</h6>
+        <a href="" style="text-decoration: none;">   <div style="border-bottom: 1px solid lightgrey;padding-bottom: 7px;">
+
+ <p>
+
+ <span style="font-weight: bold;color: grey;"> Pope Francis</span>  <br>
+<span style="font-weight: bold;color: black;"> A Crisis Reveals What Is in Our Hearts</span><br>
+<span id="bank">
+To come out of this pandemic better than we went in, we must let ourselves be touched by others’ pain.</span>
+</p>
+
+</div></a>
+
+<a href="" style="text-decoration: none;"> <div class="gen">
+    
+    <p>
+    
+       <span style="font-weight: bold;color: grey;"> Julia Rothman</span> <br>
+    <span style="font-weight: bold; color: black;"> A Turkey Recipe for 2020</span><br>
+    <span id="bank">
+        
+        How to feel better about this horrible year.
+        
+        </span>
+    </p>
+
+    <div>
+        <img src="https://static01.nyt.com/images/2020/11/25/opinion/25rothman/25rothman-square640.jpg?quality=75&auto=webp&disable=upscale&width=350" alt="" id="watch">
+    </div>
+    
+
+    </div></a>
+<div class="one">
+    <div class="two">
+        <a href="" style="text-decoration: none;">  <div style="display: flex; justify-content: space-between; border-bottom: 1px solid lightgrey; ">
+             <div style="width: 80%;">
+
+<p style="font-weight: bold; color: grey;"> Maureen Dowd</p>
+<p style="color: black; font-weight: bold;font-size: 100%;">Oh, Brother! Tears for Trump</p> 
+</div>
+<div style="width: 20%;">
+    <img src="https://static01.nyt.com/images/2018/04/02/opinion/maureen-dowd/maureen-dowd-thumbLarge.png " alt="" class="mile">
+</div>
+
+
+</div></a>
+<a href="" style="text-decoration: none;">
+<div style="display: flex;padding-top: 5px; border-bottom: 1px solid lightgrey;">
+    <div style="width: 100%;">
+    
+    <p style="font-weight: bold; font-size: medium;color: grey;"> Judge Glock</p>
+    <p style="color: black; font-weight: bold;font-size:100%;">
+        Thanksgiving Is a Celebration of Freedom</p> 
+    </div>
+    
+    
+    </div></a>
+
+    <a href="" style="text-decoration: none;"><div style="display: flex; justify-content: space-between; padding-top: 10px; border-bottom: 1px solid lightgrey;">
+        <div style="width: 80%;">
+        
+        <p style="font-weight: bold; font-size: medium;color: grey;"> David Brooks</p>
+        <p style="color: black; font-weight: bold;font-size: 100%;">
+            David Brooks
+            The Rotting of the Republican Mind</p> 
+        </div>
+        <div style="width: 20%;">
+            <img src="https://static01.nyt.com/images/2018/04/03/opinion/david-brooks/david-brooks-thumbLarge-v2.png" alt="" class="mile">
+        </div>
+        
+        
+        </div></a>
+        <a href="" style="text-decoration: none;"><div style="display: flex;justify-content: space-between; padding-top: 10px; border-bottom: 1px solid lightgrey;">
+            <div>
+            
+            <p style="font-weight: bold; font-size: medium;color: grey;"> Meghan, The Duchess of Sussex</p>
+            <p style="color: black; font-weight: bold;font-size: 100%;">
+                The Losses We Share</p> 
+            </div>
+            
+            
+            </div></a>
+            <a href="" style="text-decoration: none;"> <div style="display: flex;justify-content: space-between; padding-top: 10px; ">
+                <div style="width: 80%;">
+                
+                <p style="font-weight: bold; font-size: medium;color: grey;"> Charles M. Blow</p>
+                <p style="color: black; font-weight: bold;font-size: 100%;">
+                    This Wrongly Convicted Man Spent 25 Thanksgivings in Prison</p> 
+                </div>
+                <div style="width: 20%;">
+                    <img src="https://static01.nyt.com/images/2018/04/02/opinion/charles-m-blow/charles-m-blow-thumbLarge.png" alt="" class="mile">
+                </div>
+                
+                
+                </div></a>
+
+
+
+</div>
+<div class="six">
+    <a href="" style="text-decoration: none;"><div id="stipi" style="display: flex;justify-content: space-between;border-bottom: 1px solid lightgrey;">
+      <div style="width: 80%; padding-bottom: 23px;">
+    
+    <p style="font-weight: bold; font-size: medium;color: grey;">Gail Collins</p>
+    <p style="color: black; font-weight: bold;font-size: 100%;">
+        
+Turkey on the  Brain</p> 
+    </div>
+    <div style="width: 20%;">
+        <img src="https://static01.nyt.com/images/2018/04/03/opinion/gail-collins/gail-collins-thumbLarge.png" alt="" class="mile">
+    </div>
+    
+    
+    </div></a>
+    <a href="" style="text-decoration: none;"><div class="nine">
+        <div  style="width: 80%;">
+        
+        <p style="font-weight: bold; font-size: medium;color: grey;"> Paul Krugman</p>
+        <p style="color: black; font-weight: bold;font-size: 100%;">
+            
+           
+            In Praise of Janet Yellen the Economist</p> 
+        </div>
+        <div style="width: 20%;">
+            <img src="https://static01.nyt.com/images/2018/04/02/opinion/paul-krugman/paul-krugman-thumbLarge.png" alt="" class="mile">
+        </div>
+        
+        
+        </div></a>
+
+        <a href="" style="text-decoration: none;"> <div style="padding-top: 5px;border-bottom: 1px solid lightgrey; ">
+            <div>
+            
+            <p style="font-weight: bold; font-size: medium;color: grey;"> Jess Kelly</p>
+            <p style="color: black; font-weight: bold;font-size: 100%;">
+                
+               
+                
+Trump’s ‘Favorite Dictator’ Imprisoned My Husband — to Test Joe Biden</p> 
+            </div>
+            
+            
+            
+            </div></a>
+            <a href="" style="text-decoration: none;">  <div style="margin-top: 7px;">
+                <div >
+                
+                <p style="font-weight: bold; font-size: medium;color: grey;"> Eleanor Davis
+                   </p>
+                <p style="color: black; font-weight: bold;">
+                    
+                    Giving Thanks in 2020
+                   </p> 
+                </div>
+               
+                
+                
+                </div></a>
+            
+    </div>
+</div>
+
+    <div style="border-top: 1px solid black;padding-top: 0px;margin-top: 0;">
+<p style="font-size: medium;font-weight: bold;padding-top: 7px;">Editors' Pick</p>
+<a href=""><img src="https://static01.nyt.com/images/2020/12/02/fashion/02KarlaWelch-portrait2/02KarlaWelch-portrait2-threeByTwoMediumAt2X-v2.jpg?quality=75&auto=webp&disable=upscale&width=600" alt="" style="width: 100%;">
+</a>
+
+<p style="text-align: right; color: lightgrey; font-size: x-small;padding: 3px;">Kendrick Brinson for The New York Times </p>
+<a href="" style="text-decoration: none;"><div class="nico">
+<h3 style= "color: grey;padding: 10px;">Can These Period Underwear Crusaders Convert You?</h3>
+
+<p style="padding: 10px ;color: grey; border-bottom: 1px solid lightgrey;">The Hollywood stylist Karla Welch has found a new calling in an up-and-coming menstrual product.
+     
+</p></div></a>
+
+    </div>
+   <div class="dani">
+
+ <a href="" class="ceba"> <div >
+   <h5 style="font-weight: bold;"> Best Albums of 2020</h5>
+Isolation was unavoidable this year: Some albums embraced it, some raged against it, some tried to imagine a world without it.
+
+
+</div></a>
+
+<a href="" class="luiz"><div >
+    <img src="https://static01.nyt.com/images/2020/11/23/arts/best-pop-2020-topart/best-pop-2020-topart-square640.jpg?quality=75&auto=webp&disable=upscale&width=350" alt="" style="width: 100%;padding-top: 15px;">
+</div></a>
+
+
+    </div>
+    <div class="dani" style="padding-top: 15px;margin-top: 7px;border-top: 1px solid lightgrey;">
+
+        <a href="" class="ceba"> <div >
+          <h5 style="font-weight: bold;">Watching What We Flush Could Help Keep a Pandemic Under Control</h5>
+          
+          The failure to control the coronavirus pandemic has been a failure of real-time health data. Sewage surveillance could help fill in those gaps.
+       
+       </div></a>
+       
+       <a href="" class="luiz"><div >
+           <img src="https://static01.nyt.com/images/2020/11/29/magazine/29mag-studiesshow/29mag-studiesshow-square640.jpg?quality=75&auto=webp&disable=upscale&width=350" alt="" style="width: 100%;padding-top: 15px;">
+       </div></a>
+       
+       
+           </div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div style="border-top: 1px solid black;width: 100%; "> </div>
+    <div style="border-top: 1px solid black;width: 100%;margin-top: 3px; ">
+        <p style="font-weight: bold;font-size: medium;padding-top: 8px;">In Other News</p> 
+ 
+        </div>
+   
+    </div>
+    
+    <div class="row" >
+        <div class="col-md-4 " id="starch">
+            
+    <a href="" style="text-decoration: none;">  <div >  
+       
+    <img src="https://static01.nyt.com/images/2020/12/03/climate/03CLI-SALMON1/03CLI-SALMON1-threeByTwoMediumAt2X.jpg?quality=75&auto=webp&disable=upscale&width=1100" alt="" class="david">
+    
+    <p style="color: lightgrey; font-size: x-small;text-align: right;">Ted S. Warren/Associated Press</p>
+</div></a>
+  <a href="" style="text-decoration: none;">  <div style=" width: 90%;margin: auto;text-align: center;" class="coeq" >
+       <h3 style="font-weight: bold;font-size: x-large; color: black;"> How Scientists Tracked Down a Mass Killer (of Salmon)</h3>
+    <p style="color: lightslategrey;"> Something was decimating the salmon that had been restored to creeks around Puget Sound.</p>
+    </div></a>
+</div>
+<div class="col-sm-5 " id="sokra">
+  <a href="" style="text-decoration: none;color: black;">  <div class="lucas" >
+<div class="gab" >
+
+   <h5 style="font-weight: bold;"> Indian Farmers’ Protests Spread, in Challenge to Modi</h5>
+<p style="font-size: smaller;"> Thousands of farmers are protesting Prime Minister Narendra Modi’s proposal to overhaul the way many of the country’s 146 million farms do business.
+
+Farmers blocked a highway this week on the border between Delhi and the Indian state of Haryana.</p>
+</div>
+
+<div class="riel" >
+<img src="https://static01.nyt.com/images/2020/12/04/world/04india-farmers01/04india-farmers01-threeByTwoSmallAt2X.jpg?quality=75&auto=webp&disable=upscale&width=400" alt="" id="riel">
+
+</div>
+
+</div></a>
+<a href="" style="text-decoration: none;color: black;"> <div class="lucas">
+    <div class="gab">
+    
+       <h5 style="font-weight: bold;"> Suhaila Siddiq, Afghanistan’s First Female General, Is Dead.</h5>
+    <p style="font-size: smaller;"> 
+        A renowned surgeon, she practiced medicine during the Soviet invasion and under the Taliban’s rule. She died of complications from the coronavirus.
+        
+        Suhaila Siddiq, left, Afghanistan’s first female lieutenant general, with Sima Samar in 2001. General Siddiq was health minister and Ms. Samar was women’s affairs minister in the Afghan government formed that year.</p>
+    </div>
+    
+    <div class="riel">
+    <img src="https://static01.nyt.com/images/2020/12/05/world/05siddiq-obit-1/05siddiq-obit-1-threeByTwoSmallAt2X.jpg?quality=75&auto=webp&disable=upscale&width=400" alt="" id="riel">
+    
+    </div>
+    
+    </div></a>
+    <a href="" style="text-decoration: none;color: black;">  <div class="lucos">
+        <div class="gab ">
+        
+           <h5 style="font-weight: bold;"> Police Drones Are Starting to Think for Themselves</h5>
+        <p style="font-size: small;"> 
+            In one Southern California city, flying drones with artificial intelligence are aiding investigations while presenting new civil rights questions.
+            
+            </p>
+        </div>
+        
+        <div class="riel ">
+        <img src="https://static01.nyt.com/images/2020/11/23/autossell/00policedrones-still1/00policedrones-still1-threeByTwoSmallAt2X.jpg?quality=75&auto=webp&disable=upscale&width=400" alt="" id="riel">
+        
+        </div>
+        
+        </div></a>
+        
+</div>
+<div class="col-sm-3 " class="cart">
+    <a href="" style="text-decoration: none;color: black;"><div class="tooth">
+  <h5 style="font-weight: bold;">  Microwave ‘Attack’ Was Likely Source of Illnesses That Hit Diplomats</h5>
+
+
+</div></a>
+<a href="" style="text-decoration: none;color: black;"><div class="tooth">
+    <h5 style="font-weight: bold;font-weight: bold;">  Bank of England Rebuked Over ‘Missing’ $67 Billion of Cash
+
+
+</div></a>
+<a href="" style="text-decoration: none;color: black;"><div class="tooth">
+    <h5 style="font-weight: bold;font-weight: bold;">   Sculpture Vanishes From German Mountain, Then Is Replaced </h5>
+
+
+</div></a>
+<a href="" style="text-decoration: none;color: black;"><div class="tooth">
+    <h5 style="font-weight: bold;font-weight: bold;">  ‘Too Tall Bandit,’ Wanted in 15 Robberies, Has Struck Again, F.B.I. Says
+</h5>
+
+</div></a>
+<a href="" style="text-decoration: none;color: black;">
+<div class="tooth">
+    <h5 style="font-weight: bold;font-weight: bold;">   California Monolith Is Removed and Replaced With a Cross
+</h5>
+
+</div></a>
+
+
+
+
+</div>
+
+
+
+
+
+
+
+    
+    
+    
+    
+    
+    
+    
+    </div>
+    
+
+    <hr style="border:1px solid black"> 
+
+<div class="no"> </div>
+<div class="ne">
+    <p style="font-weight: bold; color: black;padding-bottom: 0;padding-top: 7px;">At Home</p>
+<div  id="book">
+   
+<a href="" style="text-decoration: none;color: black;"class="syrup"><div id="syrup"><img src="https://static01.nyt.com/images/2020/12/06/dining/15COOKING-PASTA/15COOKING-PASTA-threeByTwoSmallAt2X-v2.jpg?quality=75&auto=webp&disable=upscale&width=400" alt="Pasta cook" id="wall">
+<p style="font-weight: bold;padding-top: 7px;font-size: medium;">Powderful Flavoured Pasta</p> </div></a>
+<div style="border-left: 1px solid lightgrey;"></div>
+<a href="" style="text-decoration: none;color: black;"class="syrup"><div id="syrup">
+    <img src="https://static01.nyt.com/images/2020/12/09/dining/04latke1/merlin_180333147_a584dea4-59d6-4174-a984-da1bdb13523e-threeByTwoSmallAt2X.jpg?quality=75&auto=webp&disable=upscale&width=400" alt="Merlin" id="wall">
+    <p style="font-weight: bold;padding-top: 7px;font-size: medium;">A Genius Method Foe Making Laktes</p>
+</div></a>
+<div style="border-left: 1px solid lightgrey;"></div>
+<a href="" style="text-decoration: none;color: black;"class="syrup"><div id="syrup">
+    <img src="https://static01.nyt.com/images/2020/12/07/arts/07tvcol-beegees/07tvcol-beegees-threeByTwoSmallAt2X.jpg?quality=75&auto=webp&disable=upscale&width=400" alt="Beegles" id="wall">
+<p style="font-weight: bold; padding-top: 7px;font-size: medium;">what’s on TV This Week: A Bee Gees Documentary and ‘Couples Therapy’</p>
+</div></a>
+<div style="border-left: 1px solid lightgrey;"></div>
+<a href="" style="text-decoration: none;color: black;"class="syrup"><div id="syrup">
+    <img src="https://static01.nyt.com/images/2020/12/04/books/review/Tanamachi-08/Tanamachi-08-threeByTwoSmallAt2X-v2.jpg?quality=75&auto=webp&disable=upscale&width=400" alt="books review" id="wall">
+<p style="font-weight: bold;padding-top: 7px;font-size: medium;">Books to Read and Reread</p>
+</div></a>
+<div style="border-left: 1px solid lightgrey;"></div>
+<a href="" style="text-decoration: none;color: black;"class="syrup"><div id="syrup">
+    <img src="https://static01.nyt.com/images/2020/11/23/arts/best-movies-2020-topart/best-movies-2020-topart-threeByTwoSmallAt2X.jpg?quality=75&auto=webp&disable=upscale&width=400" alt="Best movies" id="wall">
+<p style="font-weight: bold;padding-top: 7px;font-size: medium;">Best Movies of 2020</p>
+</div></a>
+
+
+</div>
+
+
+
+
+</div>
+<div style="border-top: 1px solid black;"></div>
+<div style="font-weight: bold; font-size: medium;border-top: 1px solid black; margin-top: 3px;padding-top: 5px;">Features</div>
+<div class="row" style="margin: 0;padding: 0;">
+<div class="col-sm-7" id="wire" >
+ <a href="" style="text-decoration: none;color: black;">  
+     <div class="wire">
+<img src="https://static01.nyt.com/images/2020/12/03/fashion/03Chloe-1/03Chloe-1-threeByTwoMediumAt2X.jpg?quality=75&auto=webp&disable=upscale&width=1100" alt="" >
+<p>Valerio Mezzanotti for The New York Times</p>
+</div>
+<div class="key">
+ <h2 style="opacity: 0.7;"> Can We Stop Playing Designer Musical Chairs?</h2> 
+ <div style="border-top: 1px solid lightgrey; width: 10%;margin: auto;padding-bottom: 7px;"></div> 
+    Natacha Ramsay-Levi is leaving Chloé after four years as creative director. The move could create an opportunity for real change, Vanessa Friedman writes.
+
+</div></a>
+
+<div class="ire" ></div>
+</div>
+
+<div class="col-sm-5" style="padding: 0;margin: 0;width: 100%;">
+<div id="ngolo" >
+<a href="" class="ngolo" style="text-decoration: none; color: black; "><div  class="kante" >
+<img src="https://static01.nyt.com/images/2020/12/08/arts/08latenight/08latenight-threeByTwoSmallAt2X.png?quality=75&auto=webp&disable=upscale&width=400" alt="">
+
+<h5 style="font-weight: bold; " class="fils">Best of Late Night: Lampooning Guiliani, 'American Sprayer's</h5>
+<p class="fils">
+    “Sadly, this Covid test is the only positive thing to come out of Rudy Giuliani in four years,” Jimmy Kimmel joked.
+
+</p>
+</div></a>
+<div style="border-right:1px solid lightgrey"></div>
+<a href="" class="ngolo" style="text-decoration: none; color: black;width: 50%;"><div class="kante">
+    <img src="https://static01.nyt.com/images/2018/11/21/arts/21ralphbreaks/21ralphbreaks-threeByTwoSmallAt2X-v2.jpg?quality=75&auto=webp&disable=upscale&width=400" alt="">
+    
+    <h5 style="font-weight: bold;" class="fils">Catch These 15 Titles Before They Leave Netflix in December</h5>
+    <p>
+        The year’s end means a ton of licenses are expiring. Stream these movies and bingeable TV series while you can.
+    
+    </p>
+    </div></a>
+
+</div>
+
+<div id="ngola">
+    <a href="" class="ngolo" style="text-decoration: none; color: black;"><div  class="kante">
+    <img src="https://static01.nyt.com/images/2020/11/23/arts/best-dance-2020-topart/best-dance-2020-topart-threeByTwoSmallAt2X-v6.jpg?quality=75&auto=webp&disable=upscale&width=400" alt="">
+    
+    <h5 style="font-weight: bold; " class="fils">Best Dance of 2020</h5>
+    <p class="fils">
+        
+Theaters shut down, but dance didn’t. There was dancing in the streets and dancing on screens. Old treasures spilled out of the vaults.
+    </p>
+    </div></a>
+    <div style="border-right:1px solid lightgrey;height: auto;"></div>
+    <a href="" class="ngolo" style="text-decoration: none; color: black;width: 50%;"><div class="kante" style="border-right: none;padding-right: 0;margin-right: 0;" >
+        <img src="https://static01.nyt.com/images/2020/12/01/t-magazine/01tmag-caovilla-slide-QQFO-copy/01tmag-caovilla-slide-QQFO-copy-threeByTwoSmallAt2X-v2.jpg?quality=75&auto=webp&disable=upscale&width=400" alt="">
+        
+        <h5 style="font-weight: bold;" class="fils"> In the Tuscan Countryside, a 15th-Century Monastery Turned Beloved Family Home</h5>
+        <p>
+           
+Since moving into the Chianti, Italy, property in the ’70s, the shoe designer René Caovilla has, together with his kin, made the traditions of the ancient region his own.
+
+        
+        </p>
+        </div></a>
+    
+    </div>
+</div>
+
+<div style="border-bottom: 1px solid black; width: 100%;margin-top: 30px; padding-top: 30px;"></div>
+<div style="border-top: 1px solid black; width: 100%;margin-top: 3px;font-weight: bold;font-size: medium;padding-bottom: 10px; padding-top: 15px;">Science & Technology</div>
+<div class="row" id="tiny">
+    
+<div class="col-sm-7" style="margin: 0; padding: 0;">
+<div class="tiny" >
+<a href="" style="text-decoration: none;color: black;" class="onu"><div >
+<img src="https://static01.nyt.com/images/2020/12/08/well/physed-guidelines-walking/physed-guidelines-walking-threeByTwoMediumAt2X.jpg?quality=75&auto=webp&disable=upscale&width=600" alt="" style="width: 100%;">
+<p style="font-size: x-small; color: lightgrey;text-align: right;">Getty Images</p>
+<div class="fils">
+<h5 style="font-weight: bold;padding-top: 7px;">11 Minutes of Exercise a Day May Help Counter the Effects of Sitting</h5>
+
+<p>
+    The sweet spot for physical activity and longevity seemed to arrive at about 35 minutes a day of brisk walking or other moderate activities.
+    
+    </p></div>
+</div></a>
+<div style="border-left: 1px solid lightgrey;"></div>
+<a href="" class="onu" style="text-decoration: none; color: black;"><div >
+    <img src="https://static01.nyt.com/images/2020/11/17/science/12NEWTON1/12NEWTON1-threeByTwoMediumAt2X.jpg?quality=75&auto=webp&disable=upscale&width=600" alt="" style="width: 100%;">
+<p style="font-size: x-small; color: lightgrey;text-align: right;">Caltech Archives</p>
+<div class="fils">
+    <h5 style="font-weight: bold; padding-top: 7px;">Newton’s Daunting Masterpiece Had a Wide Audience, Historians Find</h5>
+<p >
+    
+    The discovery suggests that “Principia” had a stronger impact on Enlightenment science than previous research suggested.
+    
+    
+    </p></div>
+</div></a>
+<div style="border-right: 1px solid lightgrey;"></div>
+
+</div>
+
+
+    
+</div>
+<div class="col-sm-5" style="margin: 0;padding: 7px;">
+    <a href="" style="color: black; text-decoration: none;"><div  class="dora">
+ <div id="dora" class="fils">
+<p style="font-weight: bold;">2 Companies Say Their Vaccines Are 95% Effective. What Does That Mean?</p>
+    
+    You might assume that 95 out of every 100 people vaccinated will be protected from Covid-19. But that’s not how the math works.
+    
+    
+
+
+</div>
+<div id="thy">
+<img src="https://static01.nyt.com/images/2020/11/20/science/20VIRUS-MATH1/20VIRUS-MATH1-threeByTwoSmallAt2X.jpg?quality=75&auto=webp&disable=upscale&width=400" alt="" style="width: 100%;">
+
+</div>
+
+
+
+
+
+
+</div></a>
+<a href="" style="color: black; text-decoration: none;">
+<div class="dora" style="padding-top: 15px;border-bottom: none;">
+    <div id="dora" class="fils">
+    <p style="font-weight: bold;">This Plant Evolved to Hide From a Predator. It Might Be Us.</p>
+        
+        
+
+While people deliberately breed plants, a team of researchers say humans have inadvertently prompted this one to develop camouflage.
+
+
+        
+        
+    
+    
+    </div>
+    <div id="thy">
+    <img src="https://static01.nyt.com/images/2020/12/08/science/06TB-HIDIINGPLANT1/06TB-HIDIINGPLANT1-threeByTwoSmallAt2X-v2.jpg?quality=75&auto=webp&disable=upscale&width=400" alt="" style="width: 100%;">
+    
+    </div>
+    
+    
+    
+    
+    
+    
+    </div></a>
+
+
+
+
+</div>
+
+
+
+
+
+
+</div>
+
+
+
+
+<div class="row" style="padding: 0;margin: 0; margin: 3px;">
+<div class="col-sm-10" style="padding: 0;margin: 0;">
+    <div style="border-bottom: 1px solid black;width:100%;margin-top: 25px;padding-top: 25px;"></div>
+<div style="border-top: 1px solid black;width: 100%;margin-top: 2px;font-weight: bold;padding-top: 10px;padding-bottom: 10px;">Most Popular</div>
+<div class="mag">
+
+    <a href="" style="color: black;text-decoration: none;" id="mag">
+    <div class="crystal">
+<img src="https://static01.nyt.com/images/2020/12/07/world/00afghan-bases01/merlin_179801244_8c2bbde5-6372-4034-a577-84dd5bfb8496-threeByTwoSmallAt2X.jpg?quality=75&auto=webp&disable=upscale&width=400" alt="" >
+<p style="font-weight: bold;" class="fils">U.S. Leaves Behind Afghan Bases — and a Legacy of Land Disputes</p>
+<p style="font-size: small;" class="fils">
+    The U.S.-led coalition seized land for hundreds of military bases, most now held by the Afghan military. Villagers have fought for years to collect compensation and to get their property back.</p>
+</div></a>
+<div style="border-right: 1px solid lightgrey;"></div>
+
+<a href="" style="color: black;text-decoration: none;" id="mag">
+    <div>
+<img src="https://static01.nyt.com/images/2015/11/24/dining/24COOKING-PEANUTBUTTERBLOSSOMS2/24COOKING-PEANUTBUTTERBLOSSOMS2-articleLarge.jpg?quality=75&auto=webp&disable=upscale" alt="" >
+<p style="font-weight: bold;"  class="fils"> Our 28 Best Christmas Cookies</p>
+<p style="font-size: small;"  class="fils">
+   
+We put together a list of our favorite holiday treats, including peanut butter blossoms, rugelach and frosted sugar cookies.</p>
+</div></a>
+<div style="border-right: 1px solid lightgrey;"></div>
+
+<a href="" style="color: black;text-decoration: none;" id="mag">
+    <div>
+<img src="https://static01.nyt.com/images/2020/12/07/world/07romania-1/07romania-1-threeByTwoSmallAt2X.jpg?quality=75&auto=webp&disable=upscale&width=400" alt="" >
+<p style="font-weight: bold; "  class="fils">Romania’s Leader Quits After His Party’s Unexpected Election Loss</p>
+<p style="font-size: small;"  class="fils">
+    
+Prime Minister Ludovic Orban expressed confidence that his National Liberal Party would win Sunday’s parliamentary election, but by Monday, he was handing in his resignation
+    </p>
+</div></a>
+<div style="border-right: 1px solid lightgrey;"></div>
+
+<a href="" style="color: black;text-decoration: none;" id="mag">
+    <div>
+<img src="https://static01.nyt.com/images/2020/12/13/fashion/13Kohlhaus-02/13Kohlhaus-02-threeByTwoSmallAt2X.jpg?quality=75&auto=webp&disable=upscale&width=400" alt="" >
+<p style="font-weight: bold;"  class="fils">They Had Given Up on Love</p>
+<p style="font-size: small;"  class="fils">
+   
+
+
+
+Luke Rivett and Sunney Kohlhoss met at a Los Angeles bar last year. “We talked for a few minutes,” he said. “I told her, ‘I’m going to marry you.’”</p>
+</div></a>
+
+</div>
+
+
+
+</div>
+
+<div class="col-sm-2" id="small">
+    
+    <div style="border-top: 1px solid black;width: 100%;"></div>
+    <div style="border-bottom: 1px solid black;margin-top: 2px;"></div>
+
+
+    <p style="font-weight: bold;padding-top: 7px;" id="play">Play</p>
+    <div style="padding-top:7px ;border-bottom: 1px solid lightgrey;" id="left">
+    <div style="display: flex; justify-content: space-between;">
+        <div style="width: 70%;">
+       <p style="font-weight: bold;" class="fils"> Spelling Bee</p>
+        <p style="font-size: small;" class="fils">Use 7 letters to make as many words as you can.
+        </div>
+            <div style="width: 25%;">
+                <img style="width: 100%;" src="data:image/png;base64,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" alt="">
+            </div>
+    </p>
+</div>
+</div>
+<div class="rush">
+  <p style="font-weight: bold;" class="fils">The Crossword, Tiles and More</p>  
+  <p style="font-size: small;" class="fils">  Solve the daily puzzle edited by Will Shortz, or try out other games like the Mini and Vertex.</p>
+
+</div>
+
+
+
+    
+</div>
+
+
+
+
+
+
+
+
+
+
+</div>
+
+<div style="border-bottom: 1px solid black;width: 100%;margin-top: 25px;padding-top: 25px;"></div>
+<div style="border-top: 1px solid black;width: 100%;margin-top: 2px;padding-top: 25px;padding-bottom: 15px;"></div>
+<div style="padding-bottom:5px;font-weight: bold;">
+    News
+</div>
+
+<div class="together">
+    <div id="together">
+    <p style="font-weight: bold;">Wolrd News</p>
+    <a href="" ><img src="https://static01.nyt.com/images/2020/12/04/world/americas/2020_11_20_DB_Tamaulipas_00235/2020_11_20_DB_Tamaulipas_00235-threeByTwoSmallAt2X.jpg?quality=75&auto=webp&disable=upscale&width=400" alt="" style="width: 100%;"></a>
+    <a href="" style="text-decoration: none; color: black;"> <p style="padding-top: 7px;">
+        She Stalked Her Daughter’s Killers Across Mexico, One by One</p></a>
+     <a href="" style="text-decoration: none; color: black;"><p>   Hundreds of Students Feared Missing After Attack at Nigeria School</p></a>
+     <a href="" style="text-decoration: none; color: black;"> <p> Going ‘the Extra Mile,’ Britain and E.U. Give Brexit Talks More Time</p> </a>
+    
+    
+    </div>
+    <div id="together">
+        <p style="font-weight: bold;">U.S News</p>
+      <a href="">  <img src="https://static01.nyt.com/images/2020/12/11/us/00BORDER-1-SUB/00BORDER-1-SUB-threeByTwoSmallAt2X-v3.jpg?quality=75&auto=webp&disable=upscale&width=400" alt="" style="width: 100%;"></a>
+        <a href="" style="text-decoration: none; color: black;"> <p style="padding-top: 7px;"> As Biden Prepares to Take Office, a New Rush at the Border
+            </p></a>
+            <a href="" style="text-decoration: none; color: black;"> <p> With Toll Rising Rapidly, U.S. Begins Unprecedented Vaccination Campaign  </p></a>
+            <a href="" style="text-decoration: none; color: black;"> <p>  After the Students Came Back, Deaths Rose in College Towns</p></a> 
+        
+         
+          
+         
+        </div>
+        <div id="together">
+            <p style="font-weight: bold;">Politics</p>
+          <a href="">  <img src="https://static01.nyt.com/images/2020/12/14/us/politics/14dc-votetally-photo/14dc-votetally-photo-threeByTwoSmallAt2X.jpg?quality=75&auto=webp&disable=upscale&width=400" alt="" style="width: 100%;"></a>
+            <a href="" style="text-decoration: none; color: black;">  <p style="padding-top: 7px;"> Can Congress Overturn the Electoral College Results? Probably Not
+                </p></a>
+                <a href="" style="text-decoration: none; color: black;"> <p> Electoral College Voter: Long an Honor, and Now Also a Headache </p></a>
+                <a href="" style="text-decoration: none; color: black;">  <p>  Trump Rescinds Plan for White House Staff to Be Quickly Vaccinated </p> </a>
+            
+             
+              
+              
+             
+              
+             
+            </div>
+            <div id="together">
+                <p style="font-weight: bold;">New York</p>
+               <a href=""> <img src="https://static01.nyt.com/images/2020/12/13/nyregion/13nyshooting-church-swap/13nyshooting-church-swap-threeByTwoSmallAt2X.jpg?quality=75&auto=webp&disable=upscale&width=400" alt="" style="width: 100%;"></a>
+                <a href="" style="text-decoration: none; color: black;">   <p style="padding-top: 7px;"> Police Shoot Man Near Cathedral in Manhattan After He Opens Fire
+                    
+                    
+                    </p></a>
+                    <a href="" style="text-decoration: none; color: black;"> <p> Former Aide Accuses Cuomo of Sexual Harassment </p></a>
+                        <a href="" style="text-decoration: none; color: black;">   <p> Rep. Max Rose Launches Exploratory Bid to Run for N.Y.C. Mayor </p> </a>
+                
+                 
+                  
+                  
+                 
+                  
+                 
+                </div>
+                <div id="together">
+                    <p style="font-weight: bold;">Business</p>
+                <a href="">    <img src="https://static01.nyt.com/images/2020/12/14/business/13JPBenSmith1-print/13JPBenSmith1-print-threeByTwoSmallAt2X-v3.jpg?quality=75&auto=webp&disable=upscale&width=400" alt="" style="width: 100%;"></a>
+                    <a href="" style="text-decoration: none; color: black;">   <p style="padding-top: 7px;"> Apple TV Was Making a Show About Gawker. Then Tim Cook Found Out.
+                        
+                        
+                        
+                        
+                        </p></a>
+                        <a href="" style="text-decoration: none; color: black;"> <p> WarnerMedia Chief Has Become a Movie Villain to Some in Hollywood </p></a>
+                            <a href="" style="text-decoration: none; color: black;">  <p> Google Delays Return to Office and Eyes ‘Flexible Work Week’</p> </a>
+                    
+                     
+                      
+                      
+                     
+                      
+                     
+                    </div>
+    
+    
+    
+    
+    
+    </div>
+    <div class="together" style="margin-top: 15px;padding-top: 20px;">
+        <div id="together">
+        <p style="font-weight: bold;">Technology</p>
+        <a href="" ><img src="https://static01.nyt.com/images/2020/12/14/business/00HEALTHPASS1-print/00HEALTHPASS1-threeByTwoSmallAt2X.jpg?quality=75&auto=webp&disable=upscale&width=400" alt="" style="width: 100%;"></a>
+        <a href="" style="text-decoration: none; color: black;"> <p style="padding-top: 7px;">
+            Vaccinated? Show Us Your App
+
+</p></a>
+         <a href="" style="text-decoration: none; color: black;"><p>  Roblox Delays I.P.O. Until Next Year</p></a>
+         <a href="" style="text-decoration: none; color: black;"> <p> The New Influencer Capital of America</p> </a>
+        
+        
+        </div>
+        <div id="together">
+            <p style="font-weight: bold;">Science</p>
+          <a href="">  <img src="https://static01.nyt.com/images/2017/07/19/science/space-calendar-geminids/space-calendar-geminids-threeByTwoSmallAt2X-v2.jpg?quality=75&auto=webp&disable=upscale&width=400" alt="" style="width: 100%;"></a>
+            <a href="" style="text-decoration: none; color: black;"> <p style="padding-top: 7px;"> How to Watch the Geminids Meteor Shower
+   
+                Snow Leopards Are the Latest Cats to Be Infected With the Coronavirus
+                </p></a>
+                <a href="" style="text-decoration: none; color: black;"> <p>              How to Save Phallic Flowers From Being Inbred to Extinction</p></a>
+                <a href="" style="text-decoration: none; color: black;"> <p>  Snow Leopards Are the Latest Cats to Be Infected With the Coronavirus</p></a> 
+            
+             
+              
+             
+            </div>
+            <div id="together">
+                <p style="font-weight: bold;">Sport</p>
+              <a href="">  <img src="https://static01.nyt.com/images/2020/12/13/sports/13mlb-cleveland-subtop/merlin_175316544_836192d4-d1dd-4346-b208-361d07403d1c-threeByTwoSmallAt2X.jpg?quality=75&auto=webp&disable=upscale&width=400" alt="" style="width: 100%;"></a>
+                <a href="" style="text-decoration: none; color: black;">  <p style="padding-top: 7px;"> Cleveland’s Baseball Team Will Drop Its Indians Team Name
+                   
+            
+                    </p></a>
+                    <a href="" style="text-decoration: none; color: black;"> <p>  What We Learned From Week 14 of the N.F.L. Season</p></a>
+                    <a href="" style="text-decoration: none; color: black;">  <p>          Giants Cannot Protect Win Streak Against the Cardinals</p> </a>
+                
+                 
+                  
+                  
+                 
+                  
+                 
+                </div>
+                <div id="together">
+                    <p style="font-weight: bold;">Obituaries</p>
+                   <a href=""> <img src="https://static01.nyt.com/images/2019/09/02/obituaries/00carre-toppix/00carre-toppix-threeByTwoSmallAt2X-v2.jpg?quality=75&auto=webp&disable=upscale&width=400" alt="" style="width: 100%;"></a>
+                    <a href="" style="text-decoration: none; color: black;">   <p style="padding-top: 7px;"> John le Carré, Best-Selling Author of Cold War Thrillers, Is Dead at 89
+                       
+                        
+                        
+                        </p></a>
+                        <a href="" style="text-decoration: none; color: black;"> <p>  Charley Pride, Country Music’s First Black Superstar, Dies at 86</p></a>
+                            <a href="" style="text-decoration: none; color: black;">   <p> Anthony Veasna So, Author on the Brink of Stardom, Dies at 28 </p> </a>
+                    
+                     
+                      
+                      
+                     
+                      
+                     
+                    </div>
+                    <div id="together">
+                        <p style="font-weight: bold;">The Upshot</p>
+                    <a href="">    <img src="https://static01.nyt.com/images/2020/12/14/upshot/14up-virus-incentive/14up-virus-incentive-threeByTwoSmallAt2X.jpg?quality=75&auto=webp&disable=upscale&width=400" alt="" style="width: 100%;"></a>
+                        <a href="" style="text-decoration: none; color: black;">   <p style="padding-top: 7px;"> Why Paying People to Be Vaccinated Could Backfire
+                           
+                           
+                            </p></a>
+                            <a href="" style="text-decoration: none; color: black;"> <p>  It’s Not Just You: Picking a Health Insurance Plan Is Really Hard</p></a>
+                                <a href="" style="text-decoration: none; color: black;">  <p>  Becerra Supports ‘Medicare for All,’ and Could Help States Get There
+                                </p> </a>
+                        
+                         
+                          
+                          
+                         
+                          
+                         
+                        </div>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        </div>
+        <div class="togetha">
+            <div id="togetha">
+            <p style="font-weight: bold;">Climate and Environment</p>
+            <a href="" ><img src="https://static01.nyt.com/images/2020/12/13/multimedia/13cli-china-print1/merlin_180955701_a0e629dd-4ee5-4e71-9aca-fe78d21612ce-threeByTwoSmallAt2X.jpg?quality=75&auto=webp&disable=upscale&width=400" alt="" style="width: 100%;"></a>
+            <a href="" style="text-decoration: none; color: black;"> <p style="padding-top: 7px;">
+                China, in Nudge to U.S., Makes a New Promise to Tackle Global Warming
+                
+          
+    
+    </p></a>
+             <a href="" style="text-decoration: none; color: black;"><p>  They’re Among the World’s Oldest Living Things. The Climate Crisis Is Killing Them.</p></a>
+             <a href="" style="text-decoration: none; color: black;"> <p>       Earth Is Still Sailing Into Climate Chaos, Report Says, but Its Course Could Shift</p> </a>
+            
+            
+            </div>
+            <div id="togetha">
+                <p style="font-weight: bold;">  Education</p>
+              <a href="">  <img src="https://static01.nyt.com/images/2020/10/14/us/00outdoor-schools-lede/merlin_178229871_32824c5d-4457-4815-adb5-16f2e05fb31e-threeByTwoSmallAt2X.jpg?quality=75&auto=webp&disable=upscale&width=400" alt="" style="width: 100%;"></a>
+                <a href="" style="text-decoration: none; color: black;"> <p style="padding-top: 7px;"> Classrooms Without Walls, and Hopefully Covid
+                    
+                    </p></a>
+                    <a href="" style="text-decoration: none; color: black;"> <p>              Reporting Live From Quarantine U.</p></a>
+                    <a href="" style="text-decoration: none; color: black;"> <p>   How a 2nd-Grade Class Sent a Science Experiment to Space</p></a> 
+                
+                 
+                  
+                 
+                </div>
+                <div id="togetha">
+                    <p style="font-weight: bold;">Health</p>
+                  <a href="">  <img src="https://static01.nyt.com/images/2020/12/13/science/13VIRUS-VAXLOGISTICS-print1/12VIRUS-VAXLOGISTICS4-threeByTwoSmallAt2X.jpg?quality=75&auto=webp&disable=upscale&width=400" alt="" style="width: 100%;"></a>
+                    <a href="" style="text-decoration: none; color: black;">  <p style="padding-top: 7px;">U.S. Begins Staggering Effort to Get Vaccines to States
+
+                        </p></a>
+                        <a href="" style="text-decoration: none; color: black;"> <p>  Fears of a ‘Twindemic’ Recede as Flu Lies Low</p></a>
+                        <a href="" style="text-decoration: none; color: black;">  <p>                           
+                            Covid Study Shows an Arthritis Drug May Help Patients Recover</p> </a>
+                    
+                     
+                      
+                      
+                     
+                      
+                     
+                    </div>
+                    <div id="togetha">
+                        <p style="font-weight: bold;">Reader Center</p>
+                       <a href=""> <img src="https://static01.nyt.com/images/2020/12/13/world/YIP2020-APRIL-slide-NWDU/YIP2020-APRIL-slide-NWDU-threeByTwoSmallAt2X.jpg?quality=75&auto=webp&disable=upscale&width=400" alt="" style="width: 100%;"></a>
+                        <a href="" style="text-decoration: none; color: black;">   <p style="padding-top: 7px;"> Thousands of Photographs, and a Year Like No Other
+                           
+        
+                            
+                            </p></a>
+                            <a href="" style="text-decoration: none; color: black;"> <p>  Cha How We Followed a 1,500-Mile Migration Journey</p></a>
+                                <a href="" style="text-decoration: none; color: black;">   <p>                     A Painstaking Portrait of Some of New York’s Darkest Days</p> </a>
+                        
+                         
+                          
+                          
+                         
+                          
+                         
+                        </div>
+                        
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            </div>
+
+            <div style="padding-bottom:10px;font-weight: bold;padding-top: 20px;width: 100%;">
+                OPINION
+            </div>
+            
+            <div class="together">
+                <div id="together">
+                <p style="font-weight: bold;">Opinion</p>
+                <a href="" ><img src="https://static01.nyt.com/images/2020/12/14/opinion/14wegmanprint/13wegmanWeb-threeByTwoSmallAt2X.jpg?quality=75&auto=webp&disable=upscale&width=400" alt="" style="width: 100%;"></a>
+                <a href="" style="text-decoration: none; color: black;"> <p style="padding-top: 7px;">
+                    Why Getting the Most Votes Matters
+                    
+                   </p></a>
+                 <a href="" style="text-decoration: none; color: black;"><p>   Trump Has Never Believed in Democracy</p></a>
+                 <a href="" style="text-decoration: none; color: black;"> <p>  Books Are Really Easy to Wrap</p> </a>
+                
+                
+                </div>
+                <div id="together">
+                    <p style="font-weight: bold;">Op-Ed Columnist</p>
+                  <a href="">  <img src="https://static01.nyt.com/images/2020/12/14/opinion/14sway-raffensperger-image/14sway-raffensperger-image-threeByTwoSmallAt2X.jpg?quality=75&auto=webp&disable=upscale&width=400" alt="" style="width: 100%;"></a>
+                    <a href="" style="text-decoration: none; color: black;"> <p style="padding-top: 7px;"> Georgia’s Secretary of State on Standing Up to Trump
+                        
+       
+                        </p></a>
+                        <a href="" style="text-decoration: none; color: black;"> <p> Trump Has Never Believed in Democracy</p></a>
+                        <a href="" style="text-decoration: none; color: black;"> <p>                  The Texas Lawsuit and the Age of Dreampolitik</p></a> 
+                    
+                     
+                      
+                     
+                    </div>
+                    <div id="together">
+                        <p style="font-weight: bold;">Editorials</p>
+                      <a href="">  <img src="https://static01.nyt.com/images/2020/12/12/opinion/13biden_editorial/merlin_181122948_b4d983f8-030f-4b01-8986-1ba7933780fa-threeByTwoSmallAt2X.jpg?quality=75&auto=webp&disable=upscale&width=400" alt="" style="width: 100%;"></a>
+                        <a href="" style="text-decoration: none; color: black;">  <p style="padding-top: 7px;"> Rallying the People Around a ‘Decency Agenda’
+                            
+                  
+                            </p></a>
+                            <a href="" style="text-decoration: none; color: black;"> <p> The Republicans Who Embraced Nihilism</p></a>
+                            <a href="" style="text-decoration: none; color: black;">  <p>            All Fish and No Chips </p> </a>
+                        
+                         
+                          
+                          
+                         
+                          
+                         
+                        </div>
+                        <div id="together">
+                            <p style="font-weight: bold;">Contributors</p>
+                           <a href=""> <img src="https://static01.nyt.com/images/2020/12/15/opinion/15sharma-01/merlin_177315288_4b50b027-57bb-4acb-95dc-6663d5a016b1-threeByTwoSmallAt2X.jpg?quality=75&auto=webp&disable=upscale&width=400" alt="" style="width: 100%;"></a>
+                            <a href="" style="text-decoration: none; color: black;">   <p style="padding-top: 7px;"> 
+                                Pound for Pound, Taiwan Is the Most Important Place in the World
+                                </p></a>
+                                <a href="" style="text-decoration: none; color: black;"> <p>
+                                    The People Who Actually Had a Pretty Great Year
+                                   
+        
+                                    
+                                    
+                              
+                    </p></a>
+                                    <a href="" style="text-decoration: none; color: black;">   <p>  How Do We Get to Herd Immunity for Fake News?</p> </a>
+                            
+                             
+                              
+                              
+                             
+                              
+                             
+                            </div>
+                            <div id="together">
+                                <p style="font-weight: bold;">Monday Review</p>
+                            <a href="">    <img src="https://static01.nyt.com/images/2020/12/14/opinion/sunday/14peyser/14peyser-threeByTwoSmallAt2X.jpg?quality=75&auto=webp&disable=upscale&width=400" alt="" style="width: 100%;"></a>
+                                <a href="" style="text-decoration: none; color: black;">   <p style="padding-top: 7px;"> The People Who Actually Had a Pretty Great Year
+                                    
+                                    
+                                    
+                                    </p></a>
+                                    <a href="" style="text-decoration: none; color: black;"> <p> Rallying the People Around a ‘Decency Agenda’</p></a>
+                                        <a href="" style="text-decoration: none; color: black;">  <p> Where I Find Hope
+                                        </p> </a>
+                                
+                                 
+                                  
+                                  
+                                 
+                                  
+                                 
+                                </div>
+                
+                
+                
+                
+                
+                </div>
+                <div style="padding-bottom:10px;font-weight: bold;padding-top: 20px;width: 100%;">
+                    ARTS
+                </div>
+                
+                <div class="together">
+                    <div id="together">
+                    <p style="font-weight: bold;">Arts</p>
+                    <a href="" ><img src="https://static01.nyt.com/images/2020/12/14/arts/14beethoven-image-essay/14beethoven-image-essay-threeByTwoSmallAt2X.jpg?quality=75&auto=webp&disable=upscale&width=400" alt="" style="width: 100%;"></a>
+                    <a href="" style="text-decoration: none; color: black;"> <p style="padding-top: 7px;">
+                        Beethoven’s 250th Birthday: His Greatness Is in the Details
+
+
+                       </p></a>
+                     <a href="" style="text-decoration: none; color: black;"><p>   Beethoven’s 250th Birthday: Here’s Everything You Need to Know</p></a>
+                     <a href="" style="text-decoration: none; color: black;"> <p>  Stephen King Has Thoughts About Stephen King TV Shows</p> </a>
+                    
+                    
+                    </div>
+                    <div id="together">
+                        <p style="font-weight: bold;">Art & Design</p>
+                      <a href="">  <img src="https://static01.nyt.com/images/2020/12/11/arts/10jackson-pollock1/10jackson-pollock1-threeByTwoSmallAt2X-v2.jpg?quality=75&auto=webp&disable=upscale&width=400" alt="" style="width: 100%;"></a>
+                        <a href="" style="text-decoration: none; color: black;"> <p style="padding-top: 7px;"> Jackson Pollock, Before the Drip
+                            
+
+                            </p></a>
+                            <a href="" style="text-decoration: none; color: black;"> <p> Prominent Architects Group Prohibits Design of Death Chambers</p></a>
+                            <a href="" style="text-decoration: none; color: black;"> <p>                                           Futura, a King of Graffiti, Returns to His Roots</p></a> 
+                        
+                         
+                          
+                         
+                        </div>
+                        <div id="together">
+                            <p style="font-weight: bold;">Movies</p>
+                          <a href="">  <img src="https://static01.nyt.com/images/2020/12/11/arts/00theprom/00theprom-threeByTwoSmallAt2X-v2.jpg?quality=75&auto=webp&disable=upscale&width=400" alt="" style="width: 100%;"></a>
+                            <a href="" style="text-decoration: none; color: black;">  <p style="padding-top: 7px;"> ‘The Prom’ Review: Showbiz Sanctimony, and All That Zazz
+                          
+                             
+                                
+                      
+                                </p></a>
+                                <a href="" style="text-decoration: none; color: black;"> <p>       Same-Sex Kisses Under the Mistletoe: Holiday Movies Rethink a Formula</p></a>
+                                <a href="" style="text-decoration: none; color: black;">  <p>              The Best Actors of 2020 </p> </a>
+                            
+                             
+                              
+                              
+                             
+                              
+                             
+                            </div>
+                            <div id="together">
+                                <p style="font-weight: bold;">Television</p>
+                               <a href=""> <img src="https://static01.nyt.com/images/2020/12/13/arts/13yearend-critic-tv/13yearend-critic-tv-threeByTwoSmallAt2X.jpg?quality=75&auto=webp&disable=upscale&width=400" alt="" style="width: 100%;"></a>
+                                <a href="" style="text-decoration: none; color: black;">   <p style="padding-top: 7px;"> 
+                                    This Was the Year When Everything Became TV
+                                    </p></a>
+                                    <a href="" style="text-decoration: none; color: black;"> <p>
+                                        Best TV Shows of 2020
+                        </p></a>
+                                        <a href="" style="text-decoration: none; color: black;">   <p> ‘Saturday Night Live’ Sends Up Covid-19 Vaccine Rollout</p> </a>
+                                
+                                 
+                                  
+                                  
+                                 
+                                  
+                                 
+                                </div>
+                                <div id="together">
+                                    <p style="font-weight: bold;">Music</p>
+                                <a href="">    <img src="https://static01.nyt.com/images/2020/12/14/arts/14beethoven-image/14beethoven-image-threeByTwoSmallAt2X.jpg?quality=75&auto=webp&disable=upscale&width=400" alt="" style="width: 100%;"></a>
+                                    <a href="" style="text-decoration: none; color: black;">   <p style="padding-top: 7px;"> Beethoven’s 250th Birthday: Here’s Everything You Need to Know
+                                       
+                                        
+                                        
+                                        
+                                        
+                                        </p></a>
+                                        <a href="" style="text-decoration: none; color: black;"> <p>  Beethoven’s 250th Birthday: His Greatness Is in the Details</p></a>
+                                            <a href="" style="text-decoration: none; color: black;">  <p> ‘Evermore,’ Taylor Swift’s ‘Folklore’ Sequel, Is a Journey Deeper Inward
+                                            </p> </a>
+                                    
+                                     
+                                      
+                                      
+                                     
+                                      
+                                     
+                                    </div>
+                    
+                    
+                    
+                    
+                    
+                    </div>
+                    <div class="togetha">
+                        <div id="togetha">
+                        <p style="font-weight: bold;">Theater</p>
+                        <a href="" ><img src="https://static01.nyt.com/images/2020/11/18/arts/18christmas-carol-video-stairs-stills/18christmas-carol-video-stairs-stills-threeByTwoSmallAt2X.png?quality=75&auto=webp&disable=upscale&width=400" alt="" style="width: 100%;"></a>
+                        <a href="" style="text-decoration: none; color: black;"> <p style="padding-top: 7px;">
+                            Finding More Than Humbug in Scrooge and Company
+                            
+                            
+                
+                </p></a>
+                         <a href="" style="text-decoration: none; color: black;"><p>  Scrooge on a Screen Just Can’t Be the Same</p></a>
+                         <a href="" style="text-decoration: none; color: black;"> <p>       When a Theater Critic Learned to Grade on a Curve
+   </p>                   
+                        </div>
+                        <div id="togetha">
+                            <p style="font-weight: bold;">  Dance</p>
+                          <a href="">  <img src="https://static01.nyt.com/images/2020/12/12/arts/11swan-2/11swan-2-threeByTwoSmallAt2X-v4.jpg?quality=75&auto=webp&disable=upscale&width=400" alt="" style="width: 100%;"></a>
+                            <a href="" style="text-decoration: none; color: black;"> <p style="padding-top: 7px;"> Black Ballerina, Playing a Swan, Says She Was Told to Color Her Skin
+                                
+                                
+                                
+                                
+                                </p></a>
+                                <a href="" style="text-decoration: none; color: black;"> <p>             Review: Finding Hope in an Unfinished Pam Tanowitz Premiere</p></a>
+                                <a href="" style="text-decoration: none; color: black;"> <p>   Two Ailey Stars Will Now Turn Their Focus to Baby Steps</p></a> 
+                            
+                             
+                              
+                             
+                            </div>
+                            <div id="togetha">
+                                <p style="font-weight: bold;">Books</p>
+                              <a href="">  <img src="https://static01.nyt.com/images/2020/12/13/books/14LECARRE-APPRAISAL/14LECARRE-APPRAISAL-threeByTwoSmallAt2X-v2.jpg?quality=75&auto=webp&disable=upscale&width=400" alt="" style="width: 100%;"></a>
+                                <a href="" style="text-decoration: none; color: black;">  <p style="padding-top: 7px;">John le Carré, a Master of Spy Novels Where the Real Action Was Internal
+                                    </p></a>
+                                    <a href="" style="text-decoration: none; color: black;"> <p> A Raging Pandemic Inspires Poetry With Little Bite </p></a>
+                                    <a href="" style="text-decoration: none; color: black;">  <p>    What’s Fauci Reading? We Take Another Look at Celebrity Bookshelves                      </p> </a>
+                                
+                                 
+                                  
+                                  
+                                 
+                                  
+                                 
+                                </div>
+                                <div id="togetha">
+                                    <p style="font-weight: bold;">Book Review</p>
+                                   <a href=""> <img src="https://static01.nyt.com/images/2020/12/13/books/review/13TenBest-Cover-HED_Sub01/13TenBest-Cover-HED_Sub01-threeByTwoSmallAt2X.jpg?quality=75&auto=webp&disable=upscale&width=400" alt="" style="width: 100%;"></a>
+                                    <a href="" style="text-decoration: none; color: black;">   <p style="padding-top: 7px;">The 10 Best Books of 2020
+                                        
+                                        
+                                       
+                    
+                                        
+                                        </p></a>
+                                        <a href="" style="text-decoration: none; color: black;"> <p>  100 Notable Books of 2020</p></a>
+                                            <a href="" style="text-decoration: none; color: black;">   <p>The Best Books to Give This Year</p> </a>
+                                    
+                                     
+                                      
+                                      
+                                     
+                                      
+                                     
+                                    </div>
+                                    
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        </div>
+                        <div style="padding-bottom:10px;font-weight: bold;padding-top: 20px;width: 100%;">
+                            Living
+                        </div>
+                        
+                        <div class="together">
+                            <div id="together">
+                            <p style="font-weight: bold;">Style</p>
+                            <a href="" ><img src="https://static01.nyt.com/images/2020/12/13/fashion/00UPNEXT-4UP/00UPNEXT-4UP-threeByTwoSmallAt2X-v2.jpg?quality=75&auto=webp&disable=upscale&width=400" alt="" style="width: 100%;"></a>
+                            <a href="" style="text-decoration: none; color: black;"> <p style="padding-top: 7px;">
+                                The Blue Flame of ‘Hotlanta’
+
+
+        
+        
+                               </p></a>
+                             <a href="" style="text-decoration: none; color: black;"><p>   Saunas Are Hot</p></a>
+                             <a href="" style="text-decoration: none; color: black;"> <p>  Don’t Want to Spring for a Hot Tub? Try a Stock Tank Pool</p> </a>
+                            
+                            
+                            </div>
+                            <div id="together">
+                                <p style="font-weight: bold;">Food</p>
+                              <a href="">  <img src="https://static01.nyt.com/images/2020/12/14/dining/14dine-notebook1/14dine-notebook1-threeByTwoSmallAt2X.jpg?quality=75&auto=webp&disable=upscale&width=400" alt="" style="width: 100%;"></a>
+                                <a href="" style="text-decoration: none; color: black;"> <p style="padding-top: 7px;"> Just When Restaurants Thought 2020 Couldn’t Get Any Worse …
+                                   
+                                   
+        
+                                    </p></a>
+                                    <a href="" style="text-decoration: none; color: black;"> <p>  A Traditional, but Unexpected, Christmas Showstopper</p></a>
+                                    <a href="" style="text-decoration: none; color: black;"> <p>How to Make a Spectacular Holiday Trifle</p></a> 
+                                
+                                 
+                                  
+                                 
+                                </div>
+                                <div id="together">
+                                    <p style="font-weight: bold;">Smarter Living</p>
+                                  <a href="">  <img src="https://static01.nyt.com/images/2020/11/29/multimedia/29ah-Indoor-Pollution2/29ah-Indoor-Pollution2-threeByTwoSmallAt2X.jpg?quality=75&auto=webp&disable=upscale&width=400" alt="" style="width: 100%;"></a>
+                                    <a href="" style="text-decoration: none; color: black;">  <p style="padding-top: 7px;"> There’s No Better Time to Clear the Air
+                  
+                                        
+                                     
+                                        
+                              
+                                        </p></a>
+                                        <a href="" style="text-decoration: none; color: black;"> <p>     How to Pretend You’re in Tokyo</p></a>
+                                        <a href="" style="text-decoration: none; color: black;">  <p>      Shopping for Benches
+                                        </p> </a>
+                                    
+                                     
+                                      
+                                      
+                                     
+                                      
+                                     
+                                    </div>
+                                    <div id="together">
+                                        <p style="font-weight: bold;">The New York Times Magazine</p>
+                                       <a href=""> <img src="https://static01.nyt.com/images/2020/12/20/magazine/20mag-Talk-1/20mag-Talk-1-threeByTwoSmallAt2X.jpg?quality=75&auto=webp&disable=upscale&width=400" alt="" style="width: 100%;"></a>
+                                        <a href="" style="text-decoration: none; color: black;">   <p style="padding-top: 7px;"> 
+                                            What Can America Learn From South Africa About National Healing?
+                                            
+                                            
+                                            </p></a>
+                                            <a href="" style="text-decoration: none; color: black;"> <p>
+                                                The Best Actors of 2020
+                                </p></a>
+                                                <a href="" style="text-decoration: none; color: black;">   <p> We’re Not Used to Seeing Women Act This Way</p> </a>
+                                        
+                                         
+                                          
+                                          
+                                         
+                                          
+                                         
+                                        </div>
+                                        <div id="together">
+                                            <p style="font-weight: bold;">T Magazine</p>
+                                        <a href="">    <img src="https://static01.nyt.com/images/2020/12/11/t-magazine/Baldwin-who-he-knew-slide-J952/Baldwin-who-he-knew-slide-J952-threeByTwoSmallAt2X.jpg?quality=75&auto=webp&disable=upscale&width=400" alt="" style="width: 100%;"></a>
+                                            <a href="" style="text-decoration: none; color: black;">   <p style="padding-top: 7px;"> Who James Baldwin Knew
+                                               
+    
+                                                </p></a>
+                                                <a href="" style="text-decoration: none; color: black;"> <p>   Beneath a Full Moon, a Healing Ritual</p></a>
+                                                    <a href="" style="text-decoration: none; color: black;">  <p>         Hawaii’s Next Wave of Natural Skin-Care Brands
+                                                    </p> </a>
+                                            
+                                             
+                                              
+                                              
+                                             
+                                              
+                                             
+                                            </div>
+                            
+                            
+                            
+                            
+                            
+                            </div>
+
+
+                            <div class="togetha">
+                                <div id="togetha">
+                                <p style="font-weight: bold;">Travels</p>
+                                <a href="" ><img src="https://static01.nyt.com/images/2020/12/14/travel/14travel-indonesia-promo/14travel-indonesia-promo-threeByTwoSmallAt2X.jpg?quality=75&auto=webp&disable=upscale&width=400" alt="" style="width: 100%;"></a>
+                                <a href="" style="text-decoration: none; color: black;"> <p style="padding-top: 7px;">
+                                    In Indonesia, a Blurred Boundary Between the Living and the Dead
+
+                        </p></a>
+                                 <a href="" style="text-decoration: none; color: black;"><p>  
+                                    The Receding Horizon of Travel’s Return
+                      </p></a>
+                                 <a href="" style="text-decoration: none; color: black;"> <p>                  California Travel Restrictions: What You Need to Know
+           </p>                   
+                                </div>
+                                <div id="togetha">
+                                    <p style="font-weight: bold;">  Love</p>
+                                  <a href="">  <img src="https://static01.nyt.com/images/2020/12/13/fashion/11Vows-BrooklynCovidCautious1/merlin_179853246_5b9bab97-726a-4852-902b-a5774c99fa68-threeByTwoSmallAt2X.jpg?quality=75&auto=webp&disable=upscale&width=400" alt="" style="width: 100%;"></a>
+                                    <a href="" style="text-decoration: none; color: black;"> <p style="padding-top: 7px;"> Black Ballerina, Playing a Swan, Says She Was Told to Color Her Skin
+                                        
+                                        That New York Vibe and a Life in San Diego
+                                        </p></a>
+                                        <a href="" style="text-decoration: none; color: black;"> <p>   Sparks Fly on Virtual Dates, but Not So Much in Real Life</p></a>
+                                        <a href="" style="text-decoration: none; color: black;"> <p>   Interabled YouTubers, ‘Cole and Charisma,’ Celebrate Wedding</p></a> 
+                                    
+                                     
+                                      
+                                     
+                                    </div>
+                                    <div id="togetha">
+                                        <p style="font-weight: bold;">Parenting</p>
+                                      <a href="">  <img src="https://static01.nyt.com/images/2020/12/20/multimedia/20Parenting-CovidPregnancy2/20Parenting-CovidPregnancy2-threeByTwoSmallAt2X-v2.jpg?quality=75&auto=webp&disable=upscale&width=400" alt="" style="width: 100%;"></a>
+                                        <a href="" style="text-decoration: none; color: black;">  <p style="padding-top: 7px;">The Psychic Toll of a Pandemic Pregnancy
+                                          </p></a>
+                                            <a href="" style="text-decoration: none; color: black;"> <p>   The Wild Ways Parents Preserve Their Kids’ Memories</p></a>
+                                            <a href="" style="text-decoration: none; color: black;">  <p>   
+                                                Helicopter Mom vs. Jimmy Buf </p> </a>             
+                                        </div>
+                                        <div id="togetha">
+                                            <p style="font-weight: bold;">Real Estate</p>
+                                           <a href=""> <img src="https://static01.nyt.com/images/2020/12/10/realestate/14shopping1/oakImage-1607626668481-threeByTwoSmallAt2X.jpg?quality=75&auto=webp&disable=upscale&width=400" alt="" style="width: 100%;"></a>
+                                            <a href="" style="text-decoration: none; color: black;">   <p style="padding-top: 7px;">Shopping for Firewood Holders
+                                               
+                                               
+                                                
+                                                </p></a>
+                                                <a href="" style="text-decoration: none; color: black;"> <p>   $2.5 Million Homes in California</p></a>
+                                                    <a href="" style="text-decoration: none; color: black;"><p>
+                                                        Sharing Buildings, and Concerns, During the Pandemic</p> </a>
+                                                        <a href="" style="text-decoration: none; color: black;"><p>
+                                                            Search for Homes for Sale or Rent</p> </a>
+                                                
+                                             
+                                              
+                                              
+                                             
+                                              
+                                             
+                                            </div>
+                                            
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                </div>
+
+<div style="padding-top: 25px;margin-top: 25px;border-bottom: 2px solid lightgrey;width: 100%;"></div>
+<div style="border-top: 1px solid lightgrey;width: 100%;margin-top: 2px;"></div>
+<div style="width: 100%;">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCKd2PBqk3Nm61PuRbuoovctwB6fS0qeoIOA&usqp=CAU" alt="" style="width: 200px;height: 70px;"> 
+</div>
+<div class="down">
+<div id="down">
+<a href="" style="font-weight: bold;">News</a>
+<div><a href="">Home Page</a></div> 
+ <div> <a href=""> World</a></div>
+<div>  <a href=""> Coronavirus</a></div>
+<div><a href="">  U.S.</a></div>
+<div> <a href="">  Politics</a></div>
+<div>    <a href="">  Election Results</a></div>
+<div>  <a href="">  New York</a></div>
+<div> <a href="">  Business</a></div>
+<div> <a href="">   Tech</a></div>
+<div>  <a href="">   Science</a></div>
+<div> <a href="">   Sports</a></div>
+<div>  <a href="">   Obituaries</a></div>
+<div>  <a href="">   Today's Paper</a></div>
+<div>  <a href="">  Corrections</a></div>
+
+</div>
+
+<div id="down">
+    <a href="" style="font-weight: bold;">OPINION</a>
+    <div><a href="">Today's Opinion
+        
+        
+        
+       
+        
+        </a></div> 
+     <div> <a href=""> Op-Ed Columnists</a></div>
+    <div>  <a href=""> Editorials</a></div>
+    <div><a href="">  Op-Ed Contributors</a></div>
+    <div> <a href="">   Letters</a></div>
+    <div>    <a href="">  Video: Opinion</a></div>
+    
+    
+    </div>
+    
+    <div id="down">
+        <a href="" style="font-weight: bold;">ARTS</a>
+        <div><a href="">Today's Arts</a></div> 
+         <div> <a href=""> Art & Design</a></div>
+        <div>  <a href="">  Dance</a></div>
+        <div><a href="">  Movies</a></div>
+        <div> <a href="">   Music</a></div>
+        <div>    <a href="">  Pop Culture</a></div>
+        <div>  <a href="">  Television</a></div>
+        <div> <a href=""> Theater</a></div>
+        <div> <a href="">   Video: Arts</a></div>
+      
+        
+        </div>
+        <div id="down">
+            <a href="" style="font-weight: bold;">LIVING</a>
+            <div><a href="">
+                At Home           
+                </a></div> 
+             <div> <a href=""> Automobiles</a></div>
+            <div>  <a href=""> Games</a></div>
+            <div><a href="">   Education</a></div>
+            <div> <a href="">   Food</a></div>
+            <div>    <a href="">  Health</a></div>
+            <div>  <a href=""> Jobs</a></div>
+            <div> <a href="">   Love</a></div>
+            <div> <a href="">   Magazine</a></div>
+            <div>  <a href="">    Parenting</a></div>
+            <div> <a href="">   Real Estate</a></div>
+            <div>  <a href="">    Recipes</a></div>
+            <div>  <a href="">   Style</a></div>
+            <div>  <a href="">   T Magazine</a></div>
+            <div>  <a href="">   Travel</a></div>
+            </div>
+            <div id="down">
+                <a href="" style="font-weight: bold;">MORE </a>
+                <div><a href="">Reader Center</a></div> 
+                 <div> <a href="">Wirecutter</a></div>
+                <div>  <a href=""> Live Events</a></div>
+                <div><a href="">  The Learning Network</a></div>
+                <div> <a href="">   Tools & Services</a></div>
+                <div>    <a href="">  Multimedia</a></div>
+                <div>  <a href=""> Photography</a></div>
+                <div> <a href="">  Newsletters</a></div>
+                <div> <a href="">   TimesMachine</a></div>
+                <div>  <a href="">    NYT Store</a></div>
+                <div> <a href="">   Times Journeys</a></div>
+                <div>  <a href="">   Manage My Account</a></div>
+                
+                
+                </div>
+                <div class="mat" style="border-left: 1px solid lightgrey;padding-left: 10px;">
+<div style="font-weight: bold;padding: 0;">SUBSCRIBE</div>
+<div ><i class="fas fa-calendar-day" style="padding-left: 5px;padding-right: 12px;"></i><a href="" style="color: black;"><span style="font-weight: bold;"> Home Delivery </span></a></div>
+<div ><img src="https://i.pinimg.com/originals/5e/af/20/5eaf20e1a08c73f59d40ab3ba5bffaae.png" style="width: 30px;height: 30px;" alt=""><a href="" style="color: black;"><span style="font-weight: bold;"> Digital Subscriptions </span></a></div>
+<div ><i class="fas fa-gamepad" style="padding-left: 5px;padding-right: 8px;"></i><a href="" style="color: black;"><span style="font-weight: bold;"> Games </span></a></div>
+<div ><i class="fas fa-utensils" style="padding-left: 7px;padding-right: 14px;"></i><a href="" style="color: black;"><span style="font-weight: bold;"> Home Delivery </span></a></div>
+<a href="" style="color: black;"><div style="padding-left: 5px;font-size: smaller;padding-top: 10px;">Email Newsletters</div></a>
+<a href="" style="color: black;"><div style="padding-left: 5px;font-size: smaller;">Corprate Subscriptions</div></a>
+<a href="" style="color: black;"><div style="padding-left: 5px;font-size: smaller;">Education Rate</div></a>
+<div style="padding-top: 10px; margin-top:10px;border-top: 1px solid lightgrey; width: 100%;"></div>
+
+<a href="" style="color: black;"><div style="padding-left: 5px;font-size: smaller;">Mobile Applications</div></a>
+<a href="" style="color: black;"><div style="padding-left: 5px;font-size: smaller;">Replica Editions</div></a>
+<a href="" style="color: black;"><div style="padding-left: 5px;font-size: smaller;">International</div></a>
+<a href="" style="color: black;"><div style="padding-left: 5px;font-size: smaller;">Español</div></a>
+<a href="" style="color: black;"><div style="padding-left: 5px;font-size: smaller;">中文网</div></a>
+
+
+
+
+
+                </div>
+                
+            
+            
+            
+            
+
+</div>
+
+<div class="ife">
+<div style="width: 100%;padding: 7px;border-top: 1px solid lightgrey;"><a href=""> NEWS </a></div>
+<div style="width: 100%;padding: 7px;border-top: 1px solid lightgrey;"><a href=""> OPINION </a></div>
+<div style="width: 100%;padding: 7px;border-top: 1px solid lightgrey;"><a href=""> ARTS</a></div>
+<div style="width: 100%;padding: 7px;border-top: 1px solid lightgrey;"><a href=""> LIVING</a></div>
+<div style="width: 100%;padding: 7px;border-top: 1px solid lightgrey;"><a href=""> LISTINGS & MORE</a></div>
+
+
+
+</div>
+<div style="border-bottom:1px solid lightgrey; width:100%"></div>
+
+
+
+
+<div id="ife">
+<div><a href="">© 2020 The New York Times Company
+ </a></div>
+<div><a href=""> NYTCo</a></div>
+<div><a href="">Contact Us</a></div>
+<div><a href=""> Work with us</a></div>
+<div><a href=""> Advertise</a></div>
+<div><a href="">T Brand Studio</a></div>
+<div><a href=""> Your Ad Choices</a></div>
+<div><a href="">Privacy Policy</a></div>
+<div><a href="">Terms of Service</a></div>
+<div><a href="">Terms of Sale</a></div>
+<div><a href="">Site Map</a></div>
+<div><a href="">Help</a></div>
+<div><a href="">Subscriptions</a></div>
+
+
+
+</div>
+
+<div class="noto">
+<div style="width: 100%;text-align: center;padding-top: 8px;padding-bottom: 5px;"><a href="">© 2020 The New York Times Company
+</a></div>
+<div style="display: flex;justify-content: space-between;width: 90%;padding-top: 5px;padding-bottom: 5px;margin: auto;">
+<div><a href=""> NYTCo</a></div>
+<div><a href="">Contact Us</a></div>
+<div><a href=""> Work with us</a></div>
+<div><a href=""> Advertise</a></div>
+<div><a href="">T Brand Studio</a></div>
+</div>
+<div style="display: flex;justify-content: space-between;width: 100%;padding-top: 5px;padding-bottom: 5px;">
+<div><a href=""> Your Ad Choices</a></div>
+<div><a href="">Privacy Policy</a></div>
+<div><a href="">Terms of Service</a></div>
+<div><a href="">Terms of Sale</a></div>
+</div>
+<div style="display: flex;justify-content: space-between;width: 40%;margin: auto;padding-top: 5px;padding-bottom: 5px;">
+<div><a href="">Site Map</a></div>
+<div><a href="">Help</a></div>
+<div><a href="">Subscriptions</a></div>
+</div>
+</div>
+</div>
+
+
+
+    </div>
+
+
+
+
+
+</body>
+
+
+</html>
